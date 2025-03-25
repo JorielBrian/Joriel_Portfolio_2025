@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Footer = () =>{
     return (
         
-        <motion.footer initial={{y:100, opacity:0}} whileInView={{y:0, opacity:1}} transition={{ease:"easeIn", duration:1}}  className="grid grid-cols-2 m-5 py-20">
+        <motion.footer initial={{y:100, opacity:0}} whileInView={{y:0, opacity:1}} transition={{ease:"easeIn", duration:1}}  className="2xl:grid 2xl:grid-cols-2 2xl:m-5 py-20">
             <div className="text-center">
                 <h1 className="text-4xl font-bold p-2 m-3">Contact</h1>
                 <div className="text-center">
