@@ -10,7 +10,7 @@ const Footer = () =>{
                 <div className="text-center">
                     {CONTACTS.map(contact => (
                         <div key={contact.type} className="m-auto my-5 flex w-1/2 justify-center">
-                            <img src={contact.icon} alt={contact.type} className="size-7 m-2 rounded-sm" />
+                            <img src={contact.icon} alt={contact.type} className="size-5 2xl:size-7 m-2 rounded-sm" />
                             <p className="text-center my-auto">{contact.contact}</p>
                         </div>
                     ))}
@@ -20,7 +20,7 @@ const Footer = () =>{
                 <h1 className="text-4xl font-bold p-2 m-3">Social Media</h1>
                 <div className="flex justify-center">
                     {SOCIAL.map(media => (
-                        <a href={media.link} key={media.social} className="size-15 m-2"><img src={media.image} alt={media.social} className="rounded-lg" /></a>
+                        <a href={media.link} key={media.social} className="size-10 2xl:size-15 m-2"><img src={media.image} alt={media.social} className="rounded-lg" /></a>
                     ))}
                 </div>
             </div>
