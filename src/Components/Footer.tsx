@@ -1,9 +1,10 @@
 import { CONTACTS, SOCIAL } from "../index";
+import { motion } from "framer-motion";
 
 const Footer = () =>{
     return (
         
-        <footer className="grid grid-cols-2 m-5 py-20">
+        <motion.footer initial={{y:100, opacity:0}} whileInView={{y:0, opacity:1}} transition={{ease:"easeIn", duration:1}}  className="grid grid-cols-2 m-5 py-20">
             <div className="text-center">
                 <h1 className="text-4xl font-bold p-2 m-3">Contact</h1>
                 <div className="text-center">
@@ -24,7 +25,7 @@ const Footer = () =>{
                 </div>
             </div>
             <p className="col-span-2 text-center">This website portfolio is developed using React, Typescript, TailwindCSS</p>
-        </footer>
+        </motion.footer>
     );
 }
 export default Footer;

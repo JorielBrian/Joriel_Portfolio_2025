@@ -1,19 +1,20 @@
 import { QUALIFICATIONS } from "../index";
+import { motion } from "framer-motion"
 
 const Qualifications = () =>{
     return (
         <>
-        <div className="w-4/5 mx-auto my-5 p-5 rounded-sm content-center">
-            <h1 className="text-4xl font-bold text-center">Key Qualifications</h1>
+        <div className="w-4/5 mx-auto my-5 p-5 rounded-sm content-center overflow-">
+            <motion.h1 initial={{opacity:0}} whileInView={{opacity:1}} transition={{ease:"easeIn", duration:0.5}}  className="text-4xl font-bold text-center">Key Qualifications</motion.h1>
             <div className="p-3 rounded-sm">
                 {QUALIFICATIONS && QUALIFICATIONS.map(qualification => (
                     <div key={qualification.title} className="flex my-10 justify-between">
-                        <div className="w-1/2 p-2">
-                            <h1 className="text-3xl font-bold">{qualification.title}</h1>
-                            <h3 className="text-2xl">{qualification.company}</h3>
+                        <motion.div initial={{x:-100, opacity:0}} whileInView={{x:0, opacity:1}} transition={{ease:"easeIn", duration:0.5}}  className="w-1/2 p-2">
+                            <h1 className="text-3xl font-bold motion">{qualification.title}</h1>
+                            <h3 className="text-2xl animate-[fromLeft_1s_ease]">{qualification.company}</h3>
                             <h4 className="text-xl text-cyan-500">{qualification.date}</h4>
-                        </div>
-                        <div className="w-1/2 p-2">
+                        </motion.div>
+                        <motion.div initial={{x:100, opacity:0}} whileInView={{x:0, opacity:1}} transition={{ease:"easeIn", duration:0.5}}  className="w-1/2 p-2">
                             {qualification.description.map(task => (
                                 <p key={task}>{task}</p>
                             ))}
@@ -22,7 +23,7 @@ const Qualifications = () =>{
                                     <p key={skill} className="w-fit px-3 py-1 m-1 bg-sky-900/50 rounded-2xl text-cyan-500">{skill}</p>
                                 ))} 
                             </div>
-                        </div>
+                        </motion.div>
                     </div>
                 ))}
             </div>
