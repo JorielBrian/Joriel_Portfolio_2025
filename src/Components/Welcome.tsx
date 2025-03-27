@@ -13,7 +13,10 @@ const Welcome = () =>{
                 </motion.div>
                 <motion.div initial={{y:100, opacity:0}} whileInView={{y:0, opacity:1}} transition={{ease:"easeIn", duration:1.5}} className="col-start-1 col-end-9 md:col-end-5 xl:col-end-4 row-start-5 md:row-start-3 row-end-7">
                     <p className="text-center text-sm sm:text-md md:text-start font-sans">
-                        I am a Junior Developer that is eager to learn all the things that I need to improve and to be the best version of me as a Full Stack Web Developer
+                        I'm Joriel Brian, a Junior Developer who is passionate, dedicated and eager to learn.
+                    </p>
+                    <p>
+                        Dream to be a future Senior Full Stack Web Developer
                     </p>
                 </motion.div>
             </div>

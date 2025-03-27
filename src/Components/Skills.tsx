@@ -9,7 +9,7 @@ const Skills = () =>{
             <div className="grid grid-cols-4 sm:grid-cols-6 lg:grid-cols-8 gap-4 p-5 rounded-2xl justify-center">
                 {SKILLS && SKILLS.map(skill => (
                     <motion.div key={skill.skill} animate={{y:[10, -10]}} transition={{ease:"linear", duration:2, repeat: Infinity, repeatType:"reverse"}}  className="flex 2xl:p-5 justify-center hover:animate-bounce">
-                        <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{ease:"easeIn", duration:1.5}}  className="size-15 rounded-sm 2xl:size-30 2xl:p-5 bg-gray-600 2xl:rounded-xl" src={skill.image} alt={skill.skill} />
+                        <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{ease:"easeIn", duration:1.5}} src={skill.image} alt={skill.skill} className="size-15 rounded-sm 2xl:size-30 2xl:p-5 bg-gray-600 2xl:rounded-xl"/>
                     </motion.div>
                 ))}
             </div>
