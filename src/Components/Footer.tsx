@@ -20,7 +20,7 @@ const Footer = () =>{
                 <h1 className="text-4xl font-bold p-2 m-3">Social Media</h1>
                 <div className="flex justify-center">
                     {SOCIAL.map(media => (
-                        <a href={media.link} key={media.social} className="size-10 2xl:size-15 m-2"><img src={media.image} alt={media.social} className="rounded-lg" /></a>
+                        <a href={media.link} key={media.social} target="_blank"  className="size-10 2xl:size-15 m-2 hover:scale-130"><img src={media.image} alt={media.social} className="rounded-lg" /></a>
                     ))}
                 </div>
             </div>
