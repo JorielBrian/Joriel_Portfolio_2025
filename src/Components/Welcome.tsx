@@ -1,9 +1,11 @@
 import { motion } from "framer-motion"
+import About from "./About";
+import Skills from "./Skills";
 
 const Welcome = () =>{
     return (
-        <div id="home" className="h-screen justify-center w-full m-10 ml-0">
-            <div className="grid grid-cols-8 grid-rows-6 px-10">
+        <div id="home" className="justify-center w-full m-10 ml-0">
+            <div className="h-screen grid grid-cols-8 grid-rows-6 px-10">
                 <motion.div initial={{x:-100, opacity:0}} whileInView={{x:0, opacity:1}} transition={{ease:"easeIn", duration:1.5}}  className="col-start-1 col-end-9 xl:col-end-6 row-start-1 row-end-3 lg:row-end-3 font-sans">
                     <h1 className="text-3xl sm:text-6xl md:text-7xl 2xl:text-8xl">Joriel Brian Sudario</h1>
                     <h2 className="text-xl sm:text-5xl 2xl:text-6xl bg-gradient-to-r from-neutral-400 via-cyan-500 to-blue-800 bg-clip-text text-transparent">Junior Developer</h2>
@@ -15,11 +17,13 @@ const Welcome = () =>{
                     <p className="text-center text-sm sm:text-md md:text-start font-sans">
                         I'm Joriel Brian, a Junior Developer who is passionate, dedicated and eager to learn.
                     </p>
-                    <p>
+                    <p className="text-center text-sm sm:text-md md:text-start font-sans">
                         Dream to be a future Senior Full Stack Web Developer
                     </p>
                 </motion.div>
             </div>
+            <About></About>
+            <Skills></Skills>
         </div>
     );
 }
