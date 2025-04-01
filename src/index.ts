@@ -41,10 +41,11 @@ export const QUALIFICATIONS = [
         skills: [
             'Next JS',
             'TypeScript',
-            'Prisma',
-            'PostgreSQL',
-            'React',
             'Tailwind CSS',
+            'React',
+            'Prisma',
+            'SQL',
+            'PostgreSQL',
             'GIT',
             'GitHub'
         ]
@@ -121,7 +122,6 @@ export const QUALIFICATIONS = [
         skills: [
             'R',
             'R Shiny',
-            'Sketchup 2D',
             'Excel',
             'Sketchup 2D',
             'Sketchup 3D',
@@ -143,8 +143,8 @@ export const QUALIFICATIONS = [
             'HTML',
             'CSS',
             'JavaScript',
-            'GraphQL',
-            'Bootstrap'
+            'Bootstrap',
+            'GraphQL'
         ]
     },
     {
