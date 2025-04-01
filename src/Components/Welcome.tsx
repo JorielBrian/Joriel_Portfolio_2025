@@ -3,6 +3,7 @@ import About from "./About";
 import Skills from "./Skills";
 
 const Welcome = () =>{
+    window.scrollTo(0, 0);
     return (
         <div id="home" className="justify-center w-full m-10 ml-0">
             <div className="h-screen grid grid-cols-8 grid-rows-6 px-10">
