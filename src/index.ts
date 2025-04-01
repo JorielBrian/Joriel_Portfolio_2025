@@ -16,12 +16,13 @@ export const SKILLS = [
     {skill:"HTML", image: "/html.png", proficiency:"Intermediate"},
     {skill:"CSS", image: "/css.png", proficiency:"Intermediate"},
     {skill:"JavaScript", image: "/javascript.png", proficiency:"Intermediate"},
-    {skill:"Tailwind", image: "/tailwind.png", proficiency:"Intermediate"},
-    {skill:"React JS", image: "/react.png", proficiency:"Intermediate"},
-    {skill:"GIT", image: "/git.png", proficiency:"Intermediate"},
     {skill:"TypeScript", image: "/typescript.png", proficiency:"Intermediate"},
-    {skill:"Next JS", image: "/next.png", proficiency:"Intermediate"},
-    {skill:"Prisma", image: "/prisma.png", proficiency:"Intermediate"},
+    {skill:"Tailwind CSS", image: "/tailwind.png", proficiency:"Intermediate"},
+    {skill:"React", image: "/react.png", proficiency:"Intermediate"},
+    {skill:"Node.js", image: "/nodejs.png", proficiency:"Intermediate"},
+    {skill:"Express.js", image: "/expressjs.png", proficiency:"Intermediate"},
+    {skill:"SQL", image: "/sql.png", proficiency:"Intermediate"},
+    {skill:"GitHub", image: "/github.png", proficiency:"Intermediate"},
 ];
 export const QUALIFICATIONS = [
     {
@@ -41,7 +42,11 @@ export const QUALIFICATIONS = [
             'Next JS',
             'TypeScript',
             'Prisma',
-            'Postgres'
+            'PostgreSQL',
+            'React',
+            'Tailwind CSS',
+            'GIT',
+            'GitHub'
         ]
     },
     {
@@ -72,7 +77,11 @@ export const QUALIFICATIONS = [
             'R Shiny',
             'SQL',
             'Excel',
-            'Sketchup 2D'
+            'Sketchup 2D',
+            'Sketchup 3D',
+            'Computer Assembling',
+            'Circuits Assembling',
+            'Soldering'
         ]
     },
     {
@@ -90,6 +99,7 @@ export const QUALIFICATIONS = [
         skills: [
             'R',
             'R Shiny',
+            'HTML',
             'SQL'
         ]
     },
@@ -112,7 +122,9 @@ export const QUALIFICATIONS = [
             'R',
             'R Shiny',
             'Sketchup 2D',
-            'Excel'
+            'Excel',
+            'Sketchup 2D',
+            'Sketchup 3D',
         ]
     },
     {
@@ -131,7 +143,8 @@ export const QUALIFICATIONS = [
             'HTML',
             'CSS',
             'JavaScript',
-            'GraphQL'
+            'GraphQL',
+            'Bootstrap'
         ]
     },
     {
@@ -150,8 +163,10 @@ export const QUALIFICATIONS = [
         skills: [
             'R',
             'R Shiny',
-            'Sketchup 2D',
-            'Excel'
+            'HTML',
+            'SQL',
+            'Dynasim',
+            'Excel',
         ]
     },
 ]
@@ -172,10 +187,13 @@ export const PROJECTS = [
         image:"library_project.png",
         description:"This is an assessment from Citrof, without knowledge with Next JS, Prisma and PostgreSQL, in just 3 days I studied the basics of the required tech and finish the assessment",
         skills:[
-            'Next JS',
+            'Next.JS',
+            'TypeScript',
             'Tailwind CSS',
             'Prisma',
-            'PostgreSQL'
+            'PostgreSQL',
+            'React',
+            'SQL'
         ]
     }
 ]

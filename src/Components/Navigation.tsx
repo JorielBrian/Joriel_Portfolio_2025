@@ -17,7 +17,7 @@ const Navigation = () =>{
             <ul className="flex relative py-auto">
                 <li className="h-10 w-20 m-1 p-1 rounded-2xl hover:underline text-center align-bottom"><Link to='/'>Home</Link></li>
                 <li className="h-10 w-20 m-1 p-1 rounded-2xl hover:underline text-center align-bottom"><Link to='/experience'>Experiences</Link></li>
-                <li className="h-10 w-20 m-1 p-1 rounded-2xl hover:underline text-center align-bottom"><Link to='/project'>Project</Link></li>
+                <li className="h-10 w-20 m-1 p-1 rounded-2xl hover:underline text-center align-bottom"><Link to='/project'>Projects</Link></li>
             </ul>
         </div>
     </motion.div>
