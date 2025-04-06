@@ -11,16 +11,17 @@ export const SOCIAL = [
     {social:"Github", link:"https://github.com/JorielBrian", image:"/github.png"},
 ]
 export const SKILLS = [
-    {skill:"HTML", image: "/html.png", proficiency:"Intermediate"},
-    {skill:"CSS", image: "/css.png", proficiency:"Intermediate"},
-    {skill:"JavaScript", image: "/javascript.png", proficiency:"Intermediate"},
-    {skill:"TypeScript", image: "/typescript.png", proficiency:"Intermediate"},
-    {skill:"Tailwind CSS", image: "/tailwind.png", proficiency:"Intermediate"},
-    {skill:"React", image: "/react.png", proficiency:"Intermediate"},
+    {skill:"HTML", image: "/html.png", proficiency:"Experienced"},
+    {skill:"CSS", image: "/css.png", proficiency:"Experienced"},
+    {skill:"JavaScript", image: "/javascript.png", proficiency:"Experienced"},
+    {skill:"TypeScript", image: "/typescript.png", proficiency:"Experienced"},
+    {skill:"Bootstrap", image: "/bootstrap.png", proficiency:"Experienced"},
+    {skill:"Tailwind CSS", image: "/tailwind.png", proficiency:"Experienced"},
+    {skill:"React", image: "/react.png", proficiency:"Experienced"},
     {skill:"Node.js", image: "/nodejs.png", proficiency:"Intermediate"},
     {skill:"Express.js", image: "/expressjs.png", proficiency:"Intermediate"},
     {skill:"SQL", image: "/sql.png", proficiency:"Intermediate"},
-    {skill:"GitHub", image: "/github.png", proficiency:"Intermediate"},
+    {skill:"GitHub", image: "/github.png", proficiency:"Experienced"},
 ];
 export const QUALIFICATIONS = [
     {
