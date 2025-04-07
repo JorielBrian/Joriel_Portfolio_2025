@@ -21,8 +21,8 @@ const Footer = () =>{
                     <h1 className="text-4xl font-bold p-2 m-3">Curriculum Vitae</h1>
                     <div className="justify-center bg-[url(cv.png)] bg-cover h-full rounded-2xl overflow-hidden">
                         <div className="bg-black/50 h-full content-center">
-                            <a href="Joriel Brian Sudario - CV.pdf" target="_blank"><button className="bg-cyan-50 text-black p-2 rounded-lg w-50 m-1">View CV</button></a>
-                            <a href="Joriel Brian Sudario - CV.pdf" download="Joriel Brian Sudario - CV.pdf"><button className="bg-cyan-600 p-2 rounded-lg w-50 m-1">Download CV</button></a>
+                            <a href="Joriel Brian Sudario - CV.pdf" target="_blank"><button className="bg-cyan-50 text-black p-2 rounded-lg w-50 m-1 hover:scale-105">View CV</button></a>
+                            <a href="Joriel Brian Sudario - CV.pdf" download="Joriel Brian Sudario - CV.pdf"><button className="bg-cyan-600 p-2 rounded-lg w-50 m-1 hover:scale-105">Download CV</button></a>
                         </div>
                     </div>
                 </div>
