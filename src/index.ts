@@ -11,17 +11,21 @@ export const SOCIAL = [
     {social:"Github", link:"https://github.com/JorielBrian", image:"/github.png"},
 ]
 export const SKILLS = [
-    {skill:"HTML", image: "/html.png", proficiency:"Experienced"},
-    {skill:"CSS", image: "/css.png", proficiency:"Experienced"},
+    {skill:"HTML", image: "/html.png", proficiency:"Advanced"},
+    {skill:"CSS", image: "/css.png", proficiency:"Advanced"},
     {skill:"JavaScript", image: "/javascript.png", proficiency:"Experienced"},
-    {skill:"TypeScript", image: "/typescript.png", proficiency:"Experienced"},
-    {skill:"Bootstrap", image: "/bootstrap.png", proficiency:"Experienced"},
-    {skill:"Tailwind CSS", image: "/tailwind.png", proficiency:"Experienced"},
+    {skill:"TypeScript", image: "/typescript.png", proficiency:"Effective"},
+    {skill:"Bootstrap", image: "/bootstrap.png", proficiency:"Advanced"},
+    {skill:"Tailwind CSS", image: "/tailwind.png", proficiency:"Advanced"},
     {skill:"React", image: "/react.png", proficiency:"Experienced"},
-    {skill:"Node.js", image: "/nodejs.png", proficiency:"Intermediate"},
-    {skill:"Express.js", image: "/expressjs.png", proficiency:"Intermediate"},
-    {skill:"SQL", image: "/sql.png", proficiency:"Intermediate"},
-    {skill:"GitHub", image: "/github.png", proficiency:"Experienced"},
+    {skill:"Next JS", image: "/next.png", proficiency:"Intermediate"},
+    {skill:"Node.js", image: "/nodejs.png", proficiency:"Functional"},
+    {skill:"Express.js", image: "/expressjs.png", proficiency:"Functional"},
+    {skill:"Prisma", image: "/prisma.png", proficiency:"Intermediate"},
+    {skill:"GraphQL", image: "/graphql.png", proficiency:"Intermediate"},
+    
+    {skill:"SQL", image: "/sql.png", proficiency:"Functional"},
+    {skill:"GitHub", image: "/github.png", proficiency:"Advanced"},
 ];
 export const QUALIFICATIONS = [
     {
