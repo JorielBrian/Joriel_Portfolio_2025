@@ -23,9 +23,15 @@ export const SKILLS = [
     {skill:"Express.js", image: "/expressjs.png", proficiency:"Functional"},
     {skill:"Prisma", image: "/prisma.png", proficiency:"Intermediate"},
     {skill:"GraphQL", image: "/graphql.png", proficiency:"Intermediate"},
-    
     {skill:"SQL", image: "/sql.png", proficiency:"Functional"},
     {skill:"GitHub", image: "/github.png", proficiency:"Advanced"},
+    {skill:"Operating Systems", image: "/operatingsystem.png", proficiency:"Experienced"},
+    {skill:"Computer Software", image: "/software.png", proficiency:"Advanced"},
+    {skill:"Computer Hardware", image: "/hardware.png", proficiency:"Advanced"},
+    {skill:"Computer Assembling", image: "/computerassembling.png", proficiency:"Advanced"},
+    {skill:"Circuit Assembling", image: "/circuitassembling.png", proficiency:"Advanced"},
+    {skill:"Troubleshooting", image: "/troubleshooting.png", proficiency:"Experienced"},
+    {skill:"Soldering", image: "/soldering.png", proficiency:"Professional"},
 ];
 export const QUALIFICATIONS = [
     {
