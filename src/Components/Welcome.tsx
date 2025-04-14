@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 import About from "./About";
 import Skills from "./Skills";
-import { Typewriter, Cursor } from "react-simple-typewriter";
+import { Typewriter} from "react-simple-typewriter";
 
 const Welcome = () =>{
     window.scrollTo(0, 0);
