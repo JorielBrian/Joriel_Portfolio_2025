@@ -12,7 +12,7 @@ const Welcome = () =>{
                 <motion.div initial={{x:-100, opacity:0}} whileInView={{x:0, opacity:1}} transition={{ease:"easeIn", duration:1.5}}  className="col-start-1 col-end-9 xl:col-end-6 row-start-1 row-end-3 lg:row-end-3 font-sans">
                     <h1 className="text-3xl sm:text-6xl md:text-7xl 2xl:text-8xl">Joriel Brian Sudario</h1>
                     <h2 className="text-xl pb-5 border-amber-50 sm:text-5xl 2xl:text-6xl bg-gradient-to-r from-neutral-400 via-cyan-500 to-blue-800 bg-clip-text text-transparent"><Typewriter 
-                    words={['Junior Developer', 'IT Specialist', 'Computer Programmer', 'Circuit Assembler']}
+                    words={['Junior Developer', 'IT Specialist', 'Computer Programmer', 'Circuit Assembler', 'Information Technology']}
                     loop = {true}
                     cursor cursorStyle = {'|'} cursorBlinking = {true} cursorColor="white"
                     /></h2>
