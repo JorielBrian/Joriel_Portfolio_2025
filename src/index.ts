@@ -65,6 +65,14 @@ export const SKILLS = [
         ]
     },
     {
+        area: "Office Suites",
+        skills: [
+            {skill: "Word", image: "/word.png", proficiency: "Experienced"},
+            {skill: "Powerpoint", image: "/powerpoint.png", proficiency: "Experienced"},
+            {skill: "Excel", image: "/excel.png", proficiency: "Experienced"},
+        ]
+    },
+    {
         area: "Graphics",
         skills: [
             {skill: "Canva", image: "/canva.png", proficiency: "Experienced"},
@@ -72,14 +80,6 @@ export const SKILLS = [
             {skill: "Powerdirector", image: "/powerdirector.png", proficiency: "Experienced"},
         ]
     },
-    {
-        area: "Office Suites",
-        skills: [
-            {skill: "Word", image: "/word.png", proficiency: "Experienced"},
-            {skill: "Powerpoint", image: "/powerpoint.png", proficiency: "Experienced"},
-            {skill: "Excel", image: "/excel.png", proficiency: "Experienced"},
-        ]
-    }
     
 ];
 export const QUALIFICATIONS = [
