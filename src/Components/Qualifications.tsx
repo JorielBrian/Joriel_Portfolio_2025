@@ -14,6 +14,7 @@ const Qualifications = () =>{
                             <h1 className="text-2xl 2xl:text-3xl font-bold motion">{qualification.title}</h1>
                             <h3 className="text-xl 2xl:text-2xl animate-[fromLeft_1s_ease]">{qualification.company}</h3>
                             <h4 className="text-sm 2xl:text-xl text-cyan-500">{qualification.date}</h4>
+                            <h4 className="text-sm 2xl:text-xl text-cyan-500">{qualification.contract}</h4>
                         </motion.div>
                         {/* DESCRIPTIONS */}
                         <motion.div initial={{x:100, opacity:0}} whileInView={{x:0, opacity:1}} transition={{ease:"easeIn", duration:0.5}}  className="w-full xl:w-1/2">

@@ -112,7 +112,7 @@ export const QUALIFICATIONS = [
         title:"Systems Analyst and Programmer",
         company:"STRIDE Consulting Inc.",
         date:"October 2020 – July 2023",
-        contract:"Regular",
+        contract:"Full Time",
         description: [
             "Using Excel or Access to encode and organize data given by our clients (LGU, Manila Water Inc.).",
             "Programming in R to process data and generate docx and HTML reports with graphs.",
@@ -147,7 +147,7 @@ export const QUALIFICATIONS = [
         title:"Information Technology Officer I",
         company:"City Government of Puerto Princesa",
         date:"November 2022 – December 2022",
-        contract:"Contractual",
+        contract:"Contractual / Project",
         description: [
             "Develop R shiny application for the web page dashboard.",
             "Process data depending on the user inputs and generate outputs with the use of tables, graphs, interactive maps, and downloadable reports in HTML file format.",
@@ -166,7 +166,7 @@ export const QUALIFICATIONS = [
         title:"Data Analyst and R Programmer",
         company:"STRIDE Consulting, Inc. / Manila Water Co. Inc. (Rodriguez, Rizal)",
         date:"November 2021 – March 2022",
-        contract:"Part-Time",
+        contract:"Contractual / Project",
         description: [
             "Assisting Sketchup 2D base map and inventory.",
             "Assisting Sketchup 3D road model",
@@ -189,7 +189,7 @@ export const QUALIFICATIONS = [
         title:"Computer Programmer II",
         company:"University of the Philippines, Diliman (NCPAG)",
         date:"June 2021 – January 2022",
-        contract:"Contractual",
+        contract:"Contractual / Project",
         description: [
             "Develop a responsive front-end web page with interactive map with the use of HTML, CSS, JavaScript and GraphQL.",
             "Determining the structure and design.",
@@ -209,7 +209,7 @@ export const QUALIFICATIONS = [
         title:"Data Analyst and R Programmer",
         company:"STRIDE Consulting, Inc. / Manila Water Co. Inc. (Mandaluyong West)",
         date:"April 2021 – December 2021",
-        contract:"Part-Time",
+        contract:"Contractual / Project",
         description: [
             "Assisting Sketchup 2D base map and inventory",
             "Contribute development for simulation and analysis.",
