@@ -233,7 +233,7 @@ export const PROJECTS = [
         name: "Website Portfolio",
         image:"portfolio_project.png",
         link:"https://jorielbrian.github.io/JorielBrianSudario_Portfolio/",
-        description:"This is my first portfolio when I'm learned the Front-end basics",
+        description:"My first portfolio, created when I was learning the fundamentals of front-end development.",
         skills:[
             'HTML',
             'CSS',
@@ -243,7 +243,7 @@ export const PROJECTS = [
     {
         name: "Library",
         image:"library_project.png",
-        description:"This is an assessment from Citrof, without knowledge with Next JS, Prisma and PostgreSQL, in just 3 days I studied the basics of the required tech and finish the assessment",
+        description:"Successfully completed a technical assessment for Citrof Group, quickly learning Next.js, Prisma, and PostgreSQL in just three days, demonstrating adaptability, problem-solving, and a strong ability to learn new technologies under tight deadlines.",
         skills:[
             'Next.JS',
             'TypeScript',
@@ -252,6 +252,17 @@ export const PROJECTS = [
             'PostgreSQL',
             'React',
             'SQL'
+        ]
+    },
+    {
+        name: "LighString Vintage Guitar Shop",
+        image:"lightstring.png",
+        link:"https://www.facebook.com/profile.php?id=61575701668511",
+        description:"I create and edit posters, images, videos, and slides to enhance branding and engagement for Lightstring Vintage Guitars Shop.",
+        skills:[
+            'Canva',
+            'Capcut',
+            'Facebook'
         ]
     }
 ]

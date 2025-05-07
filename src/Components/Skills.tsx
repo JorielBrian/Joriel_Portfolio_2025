@@ -9,7 +9,7 @@ const Skills = () =>{
             <div className="flex flex-wrap p-5 rounded-2xl justify-center">
                 {SKILLS && SKILLS.map(area => (
                     <div key={area.area} className="w-full">
-                        <h1 className="m-5 text-2xl text-center font-bold">{area.area}</h1>
+                        <motion.h1 initial={{opacity:0}} whileInView={{opacity:1}} transition={{ease:"easeIn", duration:0.5}}  className="m-5 text-2xl text-center font-bold">{area.area}</motion.h1>
                         <div className="flex flex-wrap justify-center">
                         {area.skills.map(skill => (
                             <div key={skill.skill}>
