@@ -10,28 +10,77 @@ export const SOCIAL = [
     {social:"LinkedIn", link:"https://www.linkedin.com/in/joriel-brian-sudario-b14728265", image:"/linkedin.png"},
     {social:"Github", link:"https://github.com/JorielBrian", image:"/github.png"},
 ]
+// export const SKILLS = [
+//     {skill:"HTML", image: "/html.png", proficiency:"Advanced"},
+//     {skill:"CSS", image: "/css.png", proficiency:"Advanced"},
+//     {skill:"JavaScript", image: "/javascript.png", proficiency:"Experienced"},
+//     {skill:"TypeScript", image: "/typescript.png", proficiency:"Effective"},
+//     {skill:"Bootstrap", image: "/bootstrap.png", proficiency:"Advanced"},
+//     {skill:"Tailwind CSS", image: "/tailwind.png", proficiency:"Advanced"},
+//     {skill:"React", image: "/react.png", proficiency:"Experienced"},
+//     {skill:"Next JS", image: "/next.png", proficiency:"Intermediate"},
+//     {skill:"Node.js", image: "/nodejs.png", proficiency:"Functional"},
+//     {skill:"Express.js", image: "/expressjs.png", proficiency:"Functional"},
+//     {skill:"Prisma", image: "/prisma.png", proficiency:"Intermediate"},
+//     {skill:"GraphQL", image: "/graphql.png", proficiency:"Intermediate"},
+//     {skill:"SQL", image: "/sql.png", proficiency:"Functional"},
+//     {skill:"GitHub", image: "/github.png", proficiency:"Advanced"},
+//     {skill:"Operating Systems", image: "/operatingsystem.png", proficiency:"Experienced"},
+//     {skill:"Computer Software", image: "/software.png", proficiency:"Advanced"},
+//     {skill:"Computer Hardware", image: "/hardware.png", proficiency:"Advanced"},
+//     {skill:"Computer Assembling", image: "/computerassembling.png", proficiency:"Advanced"},
+//     {skill:"Circuit Assembling", image: "/circuitassembling.png", proficiency:"Advanced"},
+//     {skill:"Troubleshooting", image: "/troubleshooting.png", proficiency:"Experienced"},
+//     {skill:"Soldering", image: "/soldering.png", proficiency:"Professional"},
+// ];
 export const SKILLS = [
-    {skill:"HTML", image: "/html.png", proficiency:"Advanced"},
-    {skill:"CSS", image: "/css.png", proficiency:"Advanced"},
-    {skill:"JavaScript", image: "/javascript.png", proficiency:"Experienced"},
-    {skill:"TypeScript", image: "/typescript.png", proficiency:"Effective"},
-    {skill:"Bootstrap", image: "/bootstrap.png", proficiency:"Advanced"},
-    {skill:"Tailwind CSS", image: "/tailwind.png", proficiency:"Advanced"},
-    {skill:"React", image: "/react.png", proficiency:"Experienced"},
-    {skill:"Next JS", image: "/next.png", proficiency:"Intermediate"},
-    {skill:"Node.js", image: "/nodejs.png", proficiency:"Functional"},
-    {skill:"Express.js", image: "/expressjs.png", proficiency:"Functional"},
-    {skill:"Prisma", image: "/prisma.png", proficiency:"Intermediate"},
-    {skill:"GraphQL", image: "/graphql.png", proficiency:"Intermediate"},
-    {skill:"SQL", image: "/sql.png", proficiency:"Functional"},
-    {skill:"GitHub", image: "/github.png", proficiency:"Advanced"},
-    {skill:"Operating Systems", image: "/operatingsystem.png", proficiency:"Experienced"},
-    {skill:"Computer Software", image: "/software.png", proficiency:"Advanced"},
-    {skill:"Computer Hardware", image: "/hardware.png", proficiency:"Advanced"},
-    {skill:"Computer Assembling", image: "/computerassembling.png", proficiency:"Advanced"},
-    {skill:"Circuit Assembling", image: "/circuitassembling.png", proficiency:"Advanced"},
-    {skill:"Troubleshooting", image: "/troubleshooting.png", proficiency:"Experienced"},
-    {skill:"Soldering", image: "/soldering.png", proficiency:"Professional"},
+    {
+        area: "Programming / Software", 
+        skills: [
+            {skill:"HTML", image: "/html.png", proficiency:"Advanced"},
+            {skill:"CSS", image: "/css.png", proficiency:"Advanced"},
+            {skill:"JavaScript", image: "/javascript.png", proficiency:"Experienced"},
+            {skill:"TypeScript", image: "/typescript.png", proficiency:"Effective"},
+            {skill:"Bootstrap", image: "/bootstrap.png", proficiency:"Advanced"},
+            {skill:"Tailwind CSS", image: "/tailwind.png", proficiency:"Advanced"},
+            {skill:"React", image: "/react.png", proficiency:"Experienced"},
+            {skill:"Next JS", image: "/next.png", proficiency:"Intermediate"},
+            {skill:"Node.js", image: "/nodejs.png", proficiency:"Functional"},
+            {skill:"Express.js", image: "/expressjs.png", proficiency:"Functional"},
+            {skill:"Python", image: "/python.png", proficiency:"Functional"},
+            {skill:"Prisma", image: "/prisma.png", proficiency:"Intermediate"},
+            {skill:"GraphQL", image: "/graphql.png", proficiency:"Intermediate"},
+            {skill:"SQL", image: "/sql.png", proficiency:"Functional"},
+            {skill:"GitHub", image: "/github.png", proficiency:"Advanced"},
+            {skill:"Operating Systems", image: "/operatingsystem.png", proficiency:"Experienced"}
+        ]
+    },
+    {
+        area: "Hardware",
+        skills: [
+            {skill:"Computer Assembling", image: "/computerassembling.png", proficiency:"Advanced"},
+            {skill:"Circuit Assembling", image: "/circuitassembling.png", proficiency:"Advanced"},
+            {skill:"Troubleshooting", image: "/troubleshooting.png", proficiency:"Experienced"},
+            {skill:"Soldering", image: "/soldering.png", proficiency:"Professional"},
+        ]
+    },
+    {
+        area: "Graphics",
+        skills: [
+            {skill: "Canva", image: "/canva.png", proficiency: "Experienced"},
+            {skill: "Capcut", image: "/capcut.png", proficiency: "Experienced"},
+            {skill: "Powerdirector", image: "/powerdirector.png", proficiency: "Experienced"},
+        ]
+    },
+    {
+        area: "Office Suites",
+        skills: [
+            {skill: "Word", image: "/word.png", proficiency: "Experienced"},
+            {skill: "Powerpoint", image: "/powerpoint.png", proficiency: "Experienced"},
+            {skill: "Excel", image: "/excel.png", proficiency: "Experienced"},
+        ]
+    }
+    
 ];
 export const QUALIFICATIONS = [
     {
