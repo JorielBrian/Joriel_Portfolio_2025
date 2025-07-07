@@ -9,15 +9,15 @@ const Navigation = () =>{
     window.addEventListener('scroll', scrolled);
 
     return (
-    <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{ease:"easeIn", duration:1}} className={scroll ? "bg-blue-950/90 sticky top-0 z-1 w-full" : "pt-10 w-full"}>
+    <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{ease:"easeIn", duration:1}} className={scroll ? "bg-blue-900/60 sticky top-0 z-1 w-full" : "pt-10 w-full"}>
         <div className="flex w-full px-5 pb-3 rounded-sm justify-between">
             <div className="w-fit">
                 <img src="/logo.png" alt="JB logo" className="m-auto lg:m-1 size-25"/>
             </div>
-            <ul className="flex relative py-auto">
-                <li className="h-10 w-20 m-1 p-1 rounded-2xl hover:underline text-center align-bottom"><Link to='/'>Home</Link></li>
-                <li className="h-10 w-20 m-1 p-1 rounded-2xl hover:underline text-center align-bottom"><Link to='/experience'>Experiences</Link></li>
-                <li className="h-10 w-20 m-1 p-1 rounded-2xl hover:underline text-center align-bottom"><Link to='/project'>Projects</Link></li>
+            <ul className="flex relative py-auto items-end *:h-10 *:w-30 *:m-1 *:p-1 *:text-center *:rounded-xl *:hover:scale-110 *:active:bg-blue-950 *:active:scale-90">
+                <li><Link to='/'>Home</Link></li>
+                <li><Link to='/experience'>Experiences</Link></li>
+                <li><Link to='/project'>Projects</Link></li>
             </ul>
         </div>
     </motion.div>

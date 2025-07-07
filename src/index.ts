@@ -10,51 +10,31 @@ export const SOCIAL = [
     {social:"LinkedIn", link:"https://www.linkedin.com/in/joriel-brian-sudario-b14728265", image:"/linkedin.png"},
     {social:"Github", link:"https://github.com/JorielBrian", image:"/github.png"},
 ]
-// export const SKILLS = [
-//     {skill:"HTML", image: "/html.png", proficiency:"Advanced"},
-//     {skill:"CSS", image: "/css.png", proficiency:"Advanced"},
-//     {skill:"JavaScript", image: "/javascript.png", proficiency:"Experienced"},
-//     {skill:"TypeScript", image: "/typescript.png", proficiency:"Effective"},
-//     {skill:"Bootstrap", image: "/bootstrap.png", proficiency:"Advanced"},
-//     {skill:"Tailwind CSS", image: "/tailwind.png", proficiency:"Advanced"},
-//     {skill:"React", image: "/react.png", proficiency:"Experienced"},
-//     {skill:"Next JS", image: "/next.png", proficiency:"Intermediate"},
-//     {skill:"Node.js", image: "/nodejs.png", proficiency:"Functional"},
-//     {skill:"Express.js", image: "/expressjs.png", proficiency:"Functional"},
-//     {skill:"Prisma", image: "/prisma.png", proficiency:"Intermediate"},
-//     {skill:"GraphQL", image: "/graphql.png", proficiency:"Intermediate"},
-//     {skill:"SQL", image: "/sql.png", proficiency:"Functional"},
-//     {skill:"GitHub", image: "/github.png", proficiency:"Advanced"},
-//     {skill:"Operating Systems", image: "/operatingsystem.png", proficiency:"Experienced"},
-//     {skill:"Computer Software", image: "/software.png", proficiency:"Advanced"},
-//     {skill:"Computer Hardware", image: "/hardware.png", proficiency:"Advanced"},
-//     {skill:"Computer Assembling", image: "/computerassembling.png", proficiency:"Advanced"},
-//     {skill:"Circuit Assembling", image: "/circuitassembling.png", proficiency:"Advanced"},
-//     {skill:"Troubleshooting", image: "/troubleshooting.png", proficiency:"Experienced"},
-//     {skill:"Soldering", image: "/soldering.png", proficiency:"Professional"},
-// ];
 export const SKILLS = [
     {
         area: "Programming / Software", 
         skills: [
-            {skill:"HTML", image: "/html.png", proficiency:"Advanced"},
-            {skill:"CSS", image: "/css.png", proficiency:"Advanced"},
-            {skill:"PHP", image: "/php.png", proficiency:"Intermediate"},
-            {skill:"JavaScript", image: "/javascript.png", proficiency:"Experienced"},
-            {skill:"TypeScript", image: "/typescript.png", proficiency:"Effective"},
-            {skill:"Bootstrap", image: "/bootstrap.png", proficiency:"Advanced"},
-            {skill:"Tailwind CSS", image: "/tailwind.png", proficiency:"Advanced"},
-            {skill:"React", image: "/react.png", proficiency:"Experienced"},
-            {skill:"Next JS", image: "/next.png", proficiency:"Intermediate"},
-            {skill:"Laravel", image: "/laravel.png", proficiency:"Functional"},
-            {skill:"Node.js", image: "/nodejs.png", proficiency:"Functional"},
-            {skill:"Express.js", image: "/expressjs.png", proficiency:"Functional"},
-            {skill:"Python", image: "/python.png", proficiency:"Functional"},
+            {skill:"PHP", image: "/php.png", proficiency:"Proficient"},
+            {skill:"HTML", image: "/html.png", proficiency:"Proficient"},
+            {skill:"CSS", image: "/css.png", proficiency:"Proficient"},
+            {skill:"Tailwind CSS", image: "/tailwind.png", proficiency:"Proficient"},
+            {skill:"Bootstrap", image: "/bootstrap.png", proficiency:"Proficient"},
+            {skill:"JavaScript", image: "/javascript.png", proficiency:"Proficient"},
+            {skill:"TypeScript", image: "/typescript.png", proficiency:"Proficient"},
+            {skill:"React", image: "/react.png", proficiency:"Proficient"},
+            {skill:"Next JS", image: "/next.png", proficiency:"Proficient"},
+            {skill:"Laravel", image: "/laravel.png", proficiency:"Proficient"},
+            {skill:"Livewire", image: "/livewire.png", proficiency:"Proficient"},
+            {skill:"Flux", image: "/flux.png", proficiency:"Proficient"},
+            {skill:"Eloquent", image: "/eloquent.png", proficiency:"Intermediate"},
             {skill:"Prisma", image: "/prisma.png", proficiency:"Intermediate"},
             {skill:"GraphQL", image: "/graphql.png", proficiency:"Intermediate"},
-            {skill:"SQL", image: "/sql.png", proficiency:"Functional"},
-            {skill:"GitHub", image: "/github.png", proficiency:"Advanced"},
-            {skill:"Operating Systems", image: "/operatingsystem.png", proficiency:"Experienced"}
+            {skill:"SQL", image: "/sql.png", proficiency:"Intermediate"},
+            {skill:"Node.js", image: "/nodejs.png", proficiency:"Beginner"},
+            {skill:"Express.js", image: "/expressjs.png", proficiency:"Beginner"},
+            {skill:"Python", image: "/python.png", proficiency:"Beginner"},
+            {skill:"GitHub", image: "/github.png", proficiency:"Proficient"},
+            {skill:"Ubuntu Linux", image: "/ubuntu.png", proficiency:"Beginner"}
         ]
     },
     {
@@ -62,24 +42,24 @@ export const SKILLS = [
         skills: [
             {skill:"Computer Assembling", image: "/computerassembling.png", proficiency:"Advanced"},
             {skill:"Circuit Assembling", image: "/circuitassembling.png", proficiency:"Advanced"},
-            {skill:"Troubleshooting", image: "/troubleshooting.png", proficiency:"Experienced"},
-            {skill:"Soldering", image: "/soldering.png", proficiency:"Professional"},
+            {skill:"Troubleshooting", image: "/troubleshooting.png", proficiency:"Proficient"},
+            {skill:"Soldering", image: "/soldering.png", proficiency:"Advanced"},
         ]
     },
     {
         area: "Office Suites",
         skills: [
-            {skill: "Word", image: "/word.png", proficiency: "Experienced"},
-            {skill: "Powerpoint", image: "/powerpoint.png", proficiency: "Experienced"},
-            {skill: "Excel", image: "/excel.png", proficiency: "Experienced"},
+            {skill: "Word", image: "/word.png", proficiency: "Proficient"},
+            {skill: "Powerpoint", image: "/powerpoint.png", proficiency: "Proficient"},
+            {skill: "Excel", image: "/excel.png", proficiency: "Proficient"},
         ]
     },
     {
         area: "Graphics",
         skills: [
-            {skill: "Canva", image: "/canva.png", proficiency: "Experienced"},
-            {skill: "Capcut", image: "/capcut.png", proficiency: "Experienced"},
-            {skill: "Powerdirector", image: "/powerdirector.png", proficiency: "Experienced"},
+            {skill: "Canva", image: "/canva.png", proficiency: "Proficient"},
+            {skill: "Capcut", image: "/capcut.png", proficiency: "Proficient"},
+            {skill: "Powerdirector", image: "/powerdirector.png", proficiency: "Proficient"},
         ]
     },
     
