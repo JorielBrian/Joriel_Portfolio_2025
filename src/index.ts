@@ -25,7 +25,7 @@ export const SKILLS = [
             {skill:"Next JS", image: "/next.png", proficiency:"Proficient"},
             {skill:"Laravel", image: "/laravel.png", proficiency:"Proficient"},
             {skill:"Livewire", image: "/livewire.png", proficiency:"Proficient"},
-            {skill:"Flux", image: "/flux.png", proficiency:"Proficient"},
+            {skill:"Flux UI", image: "/flux.png", proficiency:"Proficient"},
             {skill:"Eloquent", image: "/eloquent.png", proficiency:"Intermediate"},
             {skill:"Prisma", image: "/prisma.png", proficiency:"Intermediate"},
             {skill:"GraphQL", image: "/graphql.png", proficiency:"Intermediate"},
