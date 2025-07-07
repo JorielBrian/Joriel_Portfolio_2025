@@ -212,14 +212,17 @@ export const QUALIFICATIONS = [
 ]
 export const PROJECTS = [
     {
-        name: "Website Portfolio",
-        image:"portfolio_project.png",
-        link:"https://jorielbrian.github.io/JorielBrianSudario_Portfolio/",
-        description:"My first portfolio, created when I was learning the fundamentals of front-end development.",
+        name: "Hills of Glory Website",
+        image:"hog_site.png",
+        description:"As the project leader, I guided our group in building a website for Hills of Glory Church in Mabalacat City, Pampanga. I quickly learned Laravel, Livewire, Flux UI, and Eloquent to contribute on both frontend and backend. I also provided documents and tutorials to help my teammates understand the stack and work more effectively. Throughout the project, I helped organize our tasks and made sure we built a website that truly fit the church’s needs.",
         skills:[
-            'HTML',
-            'CSS',
-            'JavaScript'
+            'Laravel',
+            'Eloquent',
+            'Livewire',
+            'Flux UI',
+            'Tailwind CSS',
+            'PHP',
+            'Canva'
         ]
     },
     {
@@ -246,5 +249,16 @@ export const PROJECTS = [
             'Capcut',
             'Facebook'
         ]
-    }
+    },
+    {
+        name: "Website Portfolio",
+        image:"portfolio_project.png",
+        link:"https://jorielbrian.github.io/JorielBrianSudario_Portfolio/",
+        description:"My first portfolio, created when I was learning the fundamentals of front-end development.",
+        skills:[
+            'HTML',
+            'CSS',
+            'JavaScript'
+        ]
+    },
 ]
