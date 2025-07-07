@@ -14,7 +14,7 @@ const Navigation = () =>{
             <div className="w-fit">
                 <img src="/logo.png" alt="JB logo" className="m-auto lg:m-1 size-25"/>
             </div>
-            <ul className="flex relative py-auto items-end *:h-10 *:w-30 *:m-1 *:p-1 *:text-center *:rounded-xl *:hover:scale-110 *:active:bg-blue-950 *:active:scale-90">
+            <ul className="flex relative py-auto items-center *:h-10 *:w-30 *:m-1 *:p-1 *:text-center *:rounded-xl *:hover:scale-110 *:active:bg-blue-950 *:active:scale-90">
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='/experience'>Experiences</Link></li>
                 <li><Link to='/project'>Projects</Link></li>
