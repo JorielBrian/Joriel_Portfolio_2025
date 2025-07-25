@@ -66,17 +66,45 @@ export const SKILLS = [
 ];
 export const QUALIFICATIONS = [
     {
+        title:"Full-Stack Web Developer / Project Leader",
+        company:"Hills of Glory - Mabalacat",
+        date:"May 2025 – Present",
+        contract:"Contractual",
+        description: [
+            "Developing a full-stack web application using Laravel, Livewire, Eloquent ORM, Flux UI, Tailwind CSS, and SQL.",
+            "Led a team, overseeing project progress and ensuring timely delivery of milestones.",
+            "Initiated and implemented both front-end and back-end architecture from scratch.",
+            "Assigned roles and responsibilities to team members based on strengths and project needs.",
+            "Provided hands-on guidance and mentorship to the development team throughout the project.",
+            "Facilitated collaboration between technical contributors, church leaders, and pastors to align development with ministry goals.",
+            "Actively learned and applied Laravel and related technologies to enhance project outcomes.",
+            "Adapted to additional responsibilities and tasks as required to support successful project completion."
+        ],
+        skills: [
+            'Laravel',
+            'Livewire',
+            'Flux UI',
+            'Eloquent',
+            'Tailwind CSS',
+            'JavaScript',
+            'SQL',
+            'SQLite',
+            'MySQL',
+            'Github',
+            'Canva'
+        ]
+    },
+    {
         title:"Junior Developer",
         company:"Citrof Group Inc.",
         date:"August 2023 – November 2023",
         contract:"Full Time",
         description: [
-            "Self-Training for full stack development using NextJS, Typescript, Prisma, PostgreSQL",
-            "Assisting to create script for the project",
-            "Adding features for the project",
-            "Develop a web application with the given challenge",
-            "Monitor data from the database",
-            "Perform other duties as may be required by the project"
+            "Self-trained in full-stack development using Next.js, TypeScript, Prisma, and PostgreSQL.",
+            "Helped write scripts and add new features to support ongoing development.",
+            "Built web applications based on project challenges and client requirements",
+            "Monitored and managed data in the database to ensure consistency and performance.",
+            "Took on other supportive tasks to contribute to overall project success."
         ],
         skills: [
             'Next JS',
@@ -96,18 +124,16 @@ export const QUALIFICATIONS = [
         date:"October 2020 – July 2023",
         contract:"Full Time",
         description: [
-            "Using Excel or Access to encode and organize data given by our clients (LGU, Manila Water Inc.).",
-            "Programming in R to process data and generate docx and HTML reports with graphs.",
-            "Assisting to create 2D and 3D dxf files to be used on different traffic scenario simulations.",
-            "Create trajectories and simulate traffic scenarios to collect and generate data. With Cube Dynasim.",
-            "Conducting road surveys of the given locations.",
-            "Collecting data and information from the local government or the given area.a",
-            "Installing hardware devices to public vehicles to conduct road surveys.",
-            "Installing software and hardware devices to be used on the project operations.",
-            "Assembling hardware components and electronics to help the hardware officers.",
-            "Conducting research and creating PowerPoint reports for meeting presentations.",
-            "Creating KML files with Google Earth Pro.",
-            "Perform other duties as may be required by the project."
+            "Organized client data using Excel and Access (LGUs, Manila Water Inc.)",
+            "Used R programming to process information and create reports with graphs (DOCX & HTML)",
+            "Assisted in making 2D and 3D DXF files for traffic scenario simulations",
+            "Built trajectories and ran traffic simulations with Cube Dynasim to gather data",
+            "Conducted field surveys in assigned locations and coordinated with local governments",
+            "Installed hardware and software devices in public vehicles and project sites",
+            "Helped assemble electronic components for hardware support",
+            "Created KML files using Google Earth Pro for mapping tasks",
+            "Prepared PowerPoint presentations based on research findings",
+            "Took on additional support tasks to meet project requirements"
         ],
         skills: [
             'HTML',
@@ -131,11 +157,11 @@ export const QUALIFICATIONS = [
         date:"November 2022 – December 2022",
         contract:"Contractual / Project",
         description: [
-            "Develop R shiny application for the web page dashboard.",
-            "Process data depending on the user inputs and generate outputs with the use of tables, graphs, interactive maps, and downloadable reports in HTML file format.",
-            "Collaborating with the backend for the connection database and to improve usability.",
-            "Debugging, testing, and monitoring web page program and data.",
-            "Perform other duties as may be required by the project."
+            "Designed and developed a dynamic web dashboard using R Shiny, tailored to user input for data processing and visualization.",
+            "Processing outputs including interactive tables, charts, maps, and downloadable HTML reports to support data-driven insights.",
+            "Collaborated with the back-end team to establish secure database connections and optimize application usability.",
+            "Conducted thorough debugging, testing, and performance monitoring of dashboard components.",
+            "Adapted to evolving project needs, taking on additional duties to ensure successful deployment and functionality."
         ],
         skills: [
             'R',
@@ -150,14 +176,14 @@ export const QUALIFICATIONS = [
         date:"November 2021 – March 2022",
         contract:"Contractual / Project",
         description: [
-            "Assisting Sketchup 2D base map and inventory.",
-            "Assisting Sketchup 3D road model",
-            "Contribute development for simulation and analysis.",
-            "Survey road measurements.",
-            "Collecting different vehicle travel data and traffic flow by following different vehicles using a bike.",
-            "Develop R markdown program to collect data and generate document reports.",
-            "Improving R program for displaying presentable tables and graphs.",
-            "Perform other duties as may be required by the project."
+            "Supported the creation of 2D base maps and 3D road models using SketchUp",
+            "Assisted in developing road simulations and performing traffic flow analysis.",
+            "Conducted field surveys and measured road dimensions for model accuracy.",
+            "Collected vehicle movement and traffic data by tracking vehicles on a bike.",
+            "Built R Markdown programs to compile data and generate formatted reports.",
+            "Enhanced R programs to produce clear, presentable tables and graphs.",
+            "Encoded documents and generated data reports using the developed R Shiny application for analysis.",
+            "Helped with various other project tasks as needed."
         ],
         skills: [
             'R',
@@ -173,11 +199,11 @@ export const QUALIFICATIONS = [
         date:"June 2021 – January 2022",
         contract:"Contractual / Project",
         description: [
-            "Develop a responsive front-end web page with interactive map with the use of HTML, CSS, JavaScript and GraphQL.",
-            "Determining the structure and design.",
-            "Displaying locations of the data chosen by the user and allowing the user to report, add information, and data to be sent to the database.",
-            "Debugging and monitoring the web operations with the coordination of the backend developers.",
-            "Perform other duties as may be required by the project."
+            "Developed a responsive web page featuring an interactive map using HTML, CSS, and JavaScript.",
+            "Designed the structure and layout to optimize user experience and functionality.",
+            "Enabled user interaction by allowing data selection, reporting, and database submission.",
+            "Coordinated with back-end developers to debug, test, and monitor web performance",
+            "Supported the team with other project-related tasks as needed."
         ],
         skills: [
             'HTML',
@@ -193,12 +219,12 @@ export const QUALIFICATIONS = [
         date:"April 2021 – December 2021",
         contract:"Contractual / Project",
         description: [
-            "Assisting Sketchup 2D base map and inventory",
-            "Contribute development for simulation and analysis.",
-            "Encoding collected data from Mandaluyong West Sewerage System survey",
-            "Develop R markdown program to collect data and generate document reports.",
-            "Improving R program for displaying presentable tables and graphs.",
-            "Perform other duties as may be required by the project."
+            "Assisted in creating 2D base maps and inventory using SketchUp",
+            "Contributed to the development of simulations and analysis for sewerage infrastructure.",
+            "Encoded survey data related to the Mandaluyong West Sewerage System.",
+            "Built R Markdown programs to process collected data and generate formatted reports.",
+            "Enhanced R scripts to display clean, presentable tables and graphs.",
+            "Supported other project tasks as needed to ensure smooth execution."
         ],
         skills: [
             'R',
