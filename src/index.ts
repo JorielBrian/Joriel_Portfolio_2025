@@ -66,9 +66,9 @@ export const SKILLS = [
 ];
 export const QUALIFICATIONS = [
     {
-        title:"System Engineer 2",
+        title:"System Engineer II",
         company:"La Rose Noire Philippines",
-        date:"August 2025 – Present",
+        date:"August 2025 – October 2025",
         contract:"Full Time",
         description: [
             "Built full-stack web systems using PHP, Tailwind CSS, and SQL to support company operations.",
