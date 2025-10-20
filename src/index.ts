@@ -66,31 +66,6 @@ export const SKILLS = [
 ];
 export const QUALIFICATIONS = [
     {
-        title:"Systems Engineer II",
-        company:"La Rose Noire Philippines",
-        date:"August 2025 – October 2025",
-        contract:"Full Time",
-        description: [
-            "Built full-stack web systems using PHP, Tailwind CSS, and SQL to support company operations.",
-            "Provided tech support in the General Office, helping with software and hardware issues.",
-            "Developed an internal website to help employees find job opportunities within the company.",
-            "Assisted with hardware updates and device setup.",
-            "Worked closely with other developers to share ideas and solve problems together.",
-            "Learned and applied PHP Vanilla and related tools to improve project results.",
-            "Took on extra tasks when needed to help finish projects successfully"
-        ],
-        skills: [
-            'PHP',
-            'HTML',
-            'CSS',
-            'Tailwind CSS',
-            'JavaScript',
-            'SQL',
-            'File Zila',
-            'Canva'
-        ]
-    },
-    {
         title:"Web Developer & Project Leader",
         company:"Hills of Glory - Mabalacat",
         date:"May 2025 – Present",
@@ -116,6 +91,31 @@ export const QUALIFICATIONS = [
             'SQLite',
             'MySQL',
             'Github',
+            'Canva'
+        ]
+    },
+    {
+        title:"Systems Engineer II",
+        company:"La Rose Noire Philippines",
+        date:"August 2025 – October 2025",
+        contract:"Full Time",
+        description: [
+            "Built full-stack web systems using PHP, Tailwind CSS, and SQL to support company operations.",
+            "Provided tech support in the General Office, helping with software and hardware issues.",
+            "Developed an internal website to help employees find job opportunities within the company.",
+            "Assisted with hardware updates and device setup.",
+            "Worked closely with other developers to share ideas and solve problems together.",
+            "Learned and applied PHP Vanilla and related tools to improve project results.",
+            "Took on extra tasks when needed to help finish projects successfully"
+        ],
+        skills: [
+            'PHP',
+            'HTML',
+            'CSS',
+            'Tailwind CSS',
+            'JavaScript',
+            'SQL',
+            'File Zila',
             'Canva'
         ]
     },
