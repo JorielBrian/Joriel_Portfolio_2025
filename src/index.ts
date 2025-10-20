@@ -66,7 +66,7 @@ export const SKILLS = [
 ];
 export const QUALIFICATIONS = [
     {
-        title:"System Engineer II",
+        title:"Systems Engineer II",
         company:"La Rose Noire Philippines",
         date:"August 2025 – October 2025",
         contract:"Full Time",
