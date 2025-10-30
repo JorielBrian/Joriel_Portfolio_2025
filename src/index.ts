@@ -77,7 +77,7 @@ export const SKILLS = [
 ];
 export const QUALIFICATIONS = [
     {
-        title:"Senior Web Developer & Main Project Lead",
+        title:"Web Developer & Main Project Lead",
         company:"Hills of Glory - Mabalacat",
         date:"May 2025 – Present",
         contract:"Contractual",
