@@ -1,4 +1,4 @@
-import { QUALIFICATIONS } from "../index";
+import { QUALIFICATIONS } from "../qualifications";
 import { motion } from "framer-motion"
 
 const Qualifications = () =>{
