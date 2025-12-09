@@ -45,6 +45,7 @@ export const SKILLS = [
             {skill:"Node.js", image: "/nodejs.png", proficiency:"Intermediate"},
             {skill:"Express.js", image: "/expressjs.png", proficiency:"Intermediate"},
             {skill:"Python", image: "/python.png", proficiency:"Beginner"},
+            {skill:"GIT", image: "/git.png", proficiency:"Advanced"},
             {skill:"GitHub", image: "/github.png", proficiency:"Advanced"},
             {skill:"Ubuntu Linux", image: "/ubuntu.png", proficiency:"Beginner"},
         ]
