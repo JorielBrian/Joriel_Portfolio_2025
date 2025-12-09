@@ -25,7 +25,6 @@ export const SKILLS = [
     {
         area: "Programming / Software", 
         skills: [
-            {skill:"PHP", image: "/php.png", proficiency:"Proficient"},
             {skill:"JavaScript", image: "/javascript.png", proficiency:"Intermediate"},
             {skill:"TypeScript", image: "/typescript.png", proficiency:"Intermediate"},
             {skill:"React", image: "/react.png", proficiency:"Intermediate"},
@@ -43,6 +42,7 @@ export const SKILLS = [
             {skill:"Express.js", image: "/expressjs.png", proficiency:"Intermediate"},
             {skill:"GIT", image: "/git.png", proficiency:"Advanced"},
             {skill:"GitHub", image: "/github.png", proficiency:"Advanced"},
+            {skill:"PHP", image: "/php.png", proficiency:"Proficient"},
             {skill:"HTML", image: "/html.png", proficiency:"Advanced"},
             {skill:"CSS", image: "/css.png", proficiency:"Advanced"},
             {skill:"WordPress", image: "/wordpress.png", proficiency:"Functional"},
