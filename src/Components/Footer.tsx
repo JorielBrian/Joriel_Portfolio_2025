@@ -1,4 +1,4 @@
-import { CONTACTS, SOCIAL } from "../index";
+import { CONTACTS, SOCIAL } from "../data/index";
 import { motion } from "framer-motion";
 
 const Footer = () =>{

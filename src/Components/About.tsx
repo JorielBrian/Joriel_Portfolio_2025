@@ -1,4 +1,4 @@
-import { ABOUT } from "../index";
+import { ABOUT } from "../data/index";
 import { motion } from "framer-motion";
 
 const About = () =>{

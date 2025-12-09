@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import { INTRODUCTION } from "../index";
+import { INTRODUCTION } from "../data/index";
 import About from "./About";
 import Skills from "./Skills";
 import { Typewriter} from "react-simple-typewriter";
