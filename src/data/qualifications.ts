@@ -1,6 +1,6 @@
 export const QUALIFICATIONS = [
     {
-        title:"Web Developer & Main Project Lead",
+        title:"Project Lead Developer",
         company:"Hills of Glory - Mabalacat",
         date:"May 2025 – Present",
         contract:"Contractual",
@@ -78,7 +78,7 @@ export const QUALIFICATIONS = [
         ]
     },
     {
-        title:"Systems Analyst & Programmer",
+        title:"Systems Analyst",
         company:"STRIDE Consulting Inc.",
         date:"October 2020 – July 2023",
         contract:"Full Time",
@@ -133,7 +133,7 @@ export const QUALIFICATIONS_PROJECTS = [
         ]
     },
     {
-        title:"Data Analyst & R Programmer",
+        title:"Data Analyst",
         company:"STRIDE Consulting, Inc. / Manila Water Co. Inc. (Rodriguez, Rizal)",
         date:"November 2021 – March 2022",
         contract:"Contractual / Project",
@@ -176,7 +176,7 @@ export const QUALIFICATIONS_PROJECTS = [
         ]
     },
     {
-        title:"Data Analyst & R Programmer",
+        title:"Data Analyst",
         company:"STRIDE Consulting, Inc. / Manila Water Co. Inc. (Mandaluyong West)",
         date:"April 2021 – December 2021",
         contract:"Contractual / Project",
