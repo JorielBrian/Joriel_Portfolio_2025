@@ -1,4 +1,4 @@
-import { QUALIFICATIONS } from "../data/qualifications";
+import { QUALIFICATIONS, QUALIFICATIONS_PROJECTS } from "../data/qualifications";
 import { motion } from "framer-motion"
 
 const Qualifications = () =>{
@@ -26,6 +26,33 @@ const Qualifications = () =>{
                             {/* SKILLS USED */}
                             <div className="flex flex-wrap items-center">
                                 {qualification.skills.map(skill => (
+                                    <p key={skill} className="w-fit m-1 min-w-5 px-3 rounded-xl text-center 2xl:px-3 bg-sky-900/50 2xl:rounded-2xl text-cyan-500">{skill}</p>
+                                ))} 
+                            </div>
+                        </motion.div>
+                    </div>
+                ))}
+            </div>
+            <motion.h1 initial={{opacity:0}} whileInView={{opacity:1}} transition={{ease:"easeIn", duration:0.5}}  className="mt-10 text-4xl font-bold text-center">Contractual Projects</motion.h1>
+            <div className="2xl:p-3 rounded-sm">
+                {QUALIFICATIONS_PROJECTS && QUALIFICATIONS_PROJECTS.map(projects => (
+                    <div key={projects.company} className="my-5 xl:flex">
+                        <motion.div initial={{x:-100, opacity:0}} whileInView={{x:0, opacity:1}} transition={{ease:"easeIn", duration:0.5}}  className="w-full xl:w-1/2 2xl:p-2">
+                            <h1 className="text-2xl 2xl:text-3xl font-bold motion">{projects.title}</h1>
+                            <h3 className="text-xl 2xl:text-2xl animate-[fromLeft_1s_ease]">{projects.company}</h3>
+                            <h4 className="text-sm 2xl:text-xl text-cyan-500">{projects.date}</h4>
+                            <h4 className="text-sm 2xl:text-xl text-cyan-500">{projects.contract}</h4>
+                        </motion.div>
+                        {/* DESCRIPTIONS */}
+                        <motion.div initial={{x:100, opacity:0}} whileInView={{x:0, opacity:1}} transition={{ease:"easeIn", duration:0.5}}  className="w-full xl:w-1/2">
+                            <div className="py-2">
+                                {projects.description.map(task => (
+                                    <p key={task}>{task}</p>
+                                ))}
+                            </div>
+                            {/* SKILLS USED */}
+                            <div className="flex flex-wrap items-center">
+                                {projects.skills.map(skill => (
                                     <p key={skill} className="w-fit m-1 min-w-5 px-3 rounded-xl text-center 2xl:px-3 bg-sky-900/50 2xl:rounded-2xl text-cyan-500">{skill}</p>
                                 ))} 
                             </div>

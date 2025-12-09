@@ -110,6 +110,9 @@ export const QUALIFICATIONS = [
             'Soldering'
         ]
     },
+];
+
+export const QUALIFICATIONS_PROJECTS = [
     {
         title:"Information Technology Officer I",
         company:"City Government of Puerto Princesa",
