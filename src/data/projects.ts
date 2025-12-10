@@ -16,7 +16,7 @@ export const PROJECTS = [
     {
         name: "Mini HCM Time Tracking System",
         image:"time_tracking.png",
-        link:"https://mini-hcm-time-tracking-9h58.vercel.app",
+        link:"https://mini-hcm-time-tracking.vercel.app",
         description:"Project for Cornerstone Assessment. Developed a mini HCM Time Tracking System using Next.js, TypeScript, Firebase, and Tailwind CSS. Implemented user authentication, time tracking features, and a responsive UI to enhance user experience.",
         skills:[
             'Next.JS',
