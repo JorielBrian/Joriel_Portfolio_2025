@@ -23,8 +23,8 @@ export const SKILLS = [
             {skill:"HTML", image: "/html.png", proficiency:"Advanced"},
             {skill:"CSS", image: "/css.png", proficiency:"Advanced"},
             {skill:"WordPress", image: "/wordpress.png", proficiency:"Functional"},
-            {skill:"Python", image: "/python.png", proficiency:"Beginner"},
-            {skill:"Ubuntu Linux", image: "/ubuntu.png", proficiency:"Beginner"},
+            // {skill:"Python", image: "/python.png", proficiency:"Beginner"},
+            // {skill:"Ubuntu Linux", image: "/ubuntu.png", proficiency:"Beginner"},
         ]
     },
     {
