@@ -3,6 +3,7 @@ import { INTRODUCTION } from "../data/index";
 import About from "./About";
 import Skills from "./Skills";
 import { Typewriter} from "react-simple-typewriter";
+import { CORE_SKILLS } from "../data/core_skills";
 
 const Welcome = () =>{
     window.scrollTo(0, 0);
@@ -17,6 +18,9 @@ const Welcome = () =>{
                     loop = {true}
                     cursor cursorStyle = {'|'} cursorBlinking = {true} cursorColor="white"
                     /></h2>
+                    {  CORE_SKILLS && CORE_SKILLS.map(skill => (
+                        <img key={skill.skill} src={skill.image} alt={skill.skill} className="inline size-8 p-2 sm:size-10 md:size-12 lg:size-14 xl:size-14 2xl:size-16 m-1 rounded-xl hover:animate-bounce"/>
+                    )) }
                 </motion.div>
                 <motion.div initial={{x:100, opacity:0}} whileInView={{x:0, opacity:1}} transition={{ease:"easeIn", duration:1.5}} id="myImage" className="col-start-1 md:col-start-5 lg:col-start-6 col-end-9 row-start-2 md:row-start-2 lg:row-start-1 row-end-5 md:row-end-7 h-fit">
                     <img src="/Profile Picture.png" alt="My Image" className="m-auto my-5 size-80 sm:size-100 xl:size-115 2xl:size-120 rounded-full"/>
