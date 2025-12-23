@@ -1,6 +1,6 @@
 export const INTRODUCTION = [
-    "I'm Joriel Brian, a passionate and dedicated Web Developer, IT Specialist, and Computer Programmer with a strong foundation in full-stack development and hardware integration.",
-    "Driven by faith and a relentless work ethic, I'm constantly expanding my skills to become a master in Full-Stack Developement."
+    "A passionate and dedicated Web Developer with a strong foundation in full-stack development and hardware integration.",
+    "I'm constantly expanding my skills to become a master in Full-Stack Developement."
 ];
 
 export const ABOUT = [
