@@ -23,9 +23,9 @@ const Welcome = () =>{
                     )) }
                 </motion.div>
                 <motion.div initial={{y:100, opacity:0}} whileInView={{y:0, opacity:1}} transition={{ease:"easeIn", duration:1.5}} className="py-4">
-                        <div className="justify-center space-y-2 text-center">
+                        <div className="text-center space-y-2">
                             { INTRODUCTION && INTRODUCTION.map(intro => (
-                                <p key={intro} className="w-fit justify-items-center text-lg lg:text-xl xl:text-2xl 2xl:text-3xl sm:pt-15 md:p-0 md:text-start font-sans">{ intro }</p>
+                                <p key={intro} className="text-lg lg:text-xl xl:text-2xl 2xl:text-3xl sm:pt-15 md:p-0 font-sans">{ intro }</p>
                             )) }
                         </div>
                 </motion.div>
