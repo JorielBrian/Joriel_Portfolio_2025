@@ -11,8 +11,8 @@ export const ABOUT = [
 ];
 
 export const CONTACTS = [
-    {type:"email", contact:"jorielsudario@gmail.com", icon:"/mail.png"},
-    {type:"phone", contact:"+63 965 447 5177", icon:"/phone.png"}
+    {type:"email", contact:"jorielsudario@gmail.com"},
+    {type:"phone", contact:"+63 965 447 5177"}
 ]
 export const SOCIAL = [
     {social:"Facebook", link:"https://www.facebook.com/jorielbrian.sudario?mibextid=ZbWKwL", image:"/facebook.png"},

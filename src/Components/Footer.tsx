@@ -1,5 +1,6 @@
 import { CONTACTS, SOCIAL } from "../data/index";
 import { motion } from "framer-motion";
+import { Mail, Phone } from "lucide-react";
 
 const Footer = () =>{
     return (
@@ -8,13 +9,15 @@ const Footer = () =>{
             <div className="md:grid md:grid-cols-3 p-5">
                 <div className="text-center">
                     <h1 className="text-4xl font-bold p-2 m-3">Contact</h1>
-                    <div className="text-center w-fit m-auto">
-                        {CONTACTS.map(contact => (
-                            <div key={contact.type} className="m-auto my-5 flex justify-center md:justify-start">
-                                <img src={contact.icon} alt={contact.type} className="size-5 2xl:size-7 m-2 rounded-sm" />
-                                <p className="text-start my-auto">{contact.contact}</p>
-                            </div>
-                        ))}
+                    <div className="w-fit m-auto   *:w-fit *:m-auto *:my-5 *:flex *:justify-center *:gap-3">
+                        <div className="md:justify-start">
+                            <Mail className="m-auto size-7 2xl:size-9"/>
+                            <p>{CONTACTS[0].contact}</p>
+                        </div>
+                        <div className="md:justify-start">
+                            <Phone className="m-auto size-7 2xl:size-9"/>
+                            <p className="text-start">{CONTACTS[1].contact}</p>
+                        </div>
                     </div>
                 </div>
                 <div className="text-center">
