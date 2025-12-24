@@ -21,7 +21,7 @@ const Skills = () =>{
         <>
         <div className="w-4/5 mx-auto my-5 content-center">
             <motion.h1 initial={{opacity:0}} whileInView={{opacity:1}} transition={{ease:"easeIn", duration:0.5}}  className="m-5 text-4xl text-center font-bold" >Skills</motion.h1>
-            <div className="flex flex-wrap p-5 rounded-2xl justify-center">
+            <div className="flex flex-wrap p-1 sm:p-5 rounded-2xl justify-center">
                 {SKILLS && SKILLS.map(area => (
                     <div key={area.area} className="w-full">
                         <div className="flex flex-wrap relative justify-center my-10">
