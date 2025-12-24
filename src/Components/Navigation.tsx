@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { House, BriefcaseBusiness, Folder } from "lucide-react";
 
 const Navigation = () =>{
     const [scroll, setScroll] = useState(false);
@@ -14,7 +15,14 @@ const Navigation = () =>{
             <div className="w-fit">
                 <img src="/logo.png" alt="JB logo" className="m-auto lg:m-1 size-25"/>
             </div>
-            <ul className="flex relative py-auto items-center text-md md:text-lg xl:text-xl *:w-fit *:h-10 *:m-1 *:p-3 *:text-center *:rounded-xl *:hover:scale-110 *:active:bg-blue-950 *:active:scale-90">
+            {/* MOBILE VIEW */}
+            <ul className="flex lg:hidden relative py-auto items-center text-md md:text-lg xl:text-xl *:w-fit *:h-10 *:m-1 *:p-3 *:text-center *:rounded-xl *:hover:scale-110 *:active:bg-blue-950 *:active:scale-90">
+                <li><Link to='/'><House /></Link></li>
+                <li><Link to='/experience'><BriefcaseBusiness /></Link></li>
+                <li><Link to='/project'><Folder /></Link></li>
+            </ul>
+            {/* DESKTOP VIEW */}
+            <ul className="hidden lg:flex relative py-auto items-center text-md md:text-lg xl:text-xl *:w-fit *:h-10 *:m-1 *:p-3 *:text-center *:rounded-xl *:hover:scale-110 *:active:bg-blue-950 *:active:scale-90">
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='/experience'>Experiences</Link></li>
                 <li><Link to='/project'>Projects</Link></li>
