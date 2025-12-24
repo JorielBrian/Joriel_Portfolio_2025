@@ -12,14 +12,14 @@ const Welcome = () =>{
         <div id="home" className="w-full mt-30 ml-0">
             <div className="h-screen px-10 mb-20 xl:mb-0">
                 <motion.div initial={{y:100, opacity:0}} whileInView={{y:0, opacity:1}} transition={{ease:"easeIn", duration:1.5}}  className="text-center font-sans">
-                    <h1 className="text-7xl font-bold sm:text-8xl xl:text-9xl">Joriel Brian Sudario</h1>
-                    <h2 className="text-4xl pb-5 border-amber-50 sm:text-5xl lg:text-7xl 2xl:text-8xl bg-gradient-to-r from-neutral-400 via-cyan-500 to-blue-800 bg-clip-text text-transparent"><Typewriter 
+                    <h1 className="text-6xl font-bold sm:text-7xl md:text-8xl xl:text-9xl">Joriel Brian Sudario</h1>
+                    <h2 className="pb-5 border-amber-50 text-3xl sm:text-4xl md:text-5xl lg:text-7xl 2xl:text-8xl bg-gradient-to-r from-neutral-400 via-cyan-500 to-blue-800 bg-clip-text text-transparent"><Typewriter 
                     words={['Web Developer', 'Full Stack Developer', 'System Engineer', 'Software Engineer', 'Computer Programmer', 'IT Specialist', 'Circuit Assembler', 'Information Technology']}
                     loop = {true}
                     cursor cursorStyle = {'|'} cursorBlinking = {true} cursorColor="white"
                     /></h2>
                     {  CORE_SKILLS && CORE_SKILLS.map(skill => (
-                        <img key={skill.skill} src={skill.image} alt={skill.skill} className="inline size-14 xl:size-20  2xl:size-25 m-1 rounded-xl hover:animate-bounce"/>
+                        <img key={skill.skill} src={skill.image} alt={skill.skill} className="inline size-12 sm:size-14 xl:size-20  2xl:size-25 m-1 rounded-xl hover:animate-bounce"/>
                     )) }
                 </motion.div>
                 <motion.div initial={{y:-100, opacity:0}} whileInView={{y:0, opacity:1}} transition={{ease:"easeIn", duration:1.5}} className="py-4 mt-10">
