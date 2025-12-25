@@ -19,7 +19,7 @@ const Welcome = () =>{
                     cursor cursorStyle = {'|'} cursorBlinking = {true} cursorColor="white"
                     /></h2>
                     {  CORE_SKILLS && CORE_SKILLS.map(skill => (
-                        <img key={skill.skill} src={skill.image} alt={skill.skill} className="inline size-11 sm:size-14 xl:size-20  2xl:size-25 m-1 rounded-xl hover:animate-bounce"/>
+                        <img key={skill.skill} src={skill.image} alt={skill.skill} className="inline size-10 xl:size-16  2xl:size-20 m-1 rounded-xl hover:animate-bounce"/>
                     )) }
                 </motion.div>
                 <motion.div initial={{y:-100, opacity:0}} whileInView={{y:0, opacity:1}} transition={{ease:"easeIn", duration:1.5}} className="py-4 mt-10">
