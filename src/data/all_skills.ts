@@ -1,5 +1,3 @@
-import { s } from "framer-motion/client";
-
 export const SKILLS = [
     // Fundamental Skills
     {skill:"PHP", image: "/php.png", proficiency:"Proficient"},
