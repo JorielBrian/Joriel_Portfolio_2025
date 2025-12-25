@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import { SKILLS } from "../data/all_skills";
 
 function Experience(experience: {company:string, title:string, date:string, contract:string, description:string[], skills:string[]}) {
   return (
@@ -18,9 +19,11 @@ function Experience(experience: {company:string, title:string, date:string, cont
                     ))}
                 </span>
                 {/* SKILLS USED */}
-                <span className="flex flex-wrap items-center">
+                <span className="flex flex-wrap items-center gap-3">
                     {experience.skills.map(skill => (
-                        <p key={skill} className="w-fit m-1 min-w-5 px-3 rounded-xl text-center 2xl:px-3 bg-sky-900/50 2xl:rounded-2xl text-cyan-500">{skill}</p>
+                        SKILLS.find(s => s.skill === skill) 
+                            ? <img src={SKILLS.find(s => s.skill === skill)?.image} alt={skill} className="size-15 bg-white/30 p-2 rounded-xl" /> 
+                            : <p key={skill} className="w-fit m-1 min-w-5 px-3 rounded-xl text-center 2xl:px-3 bg-sky-900/50 2xl:rounded-2xl text-cyan-500">{skill}</p>
                     ))} 
                 </span>
             </motion.div>
