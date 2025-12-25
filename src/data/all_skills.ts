@@ -36,6 +36,9 @@ export const SKILLS: {skill: string, image: string, proficiency: string}[] = [
     {skill:"GraphQL", image: "/graphql.png", proficiency:"Functional"},
     {skill:"Eloquent", image: "/eloquent.png", proficiency:"Functional"},
 
+    // Stacks
+    {skill:"T3 Stack", image: "/t3.svg", proficiency:"Intermediate"},
+
     // Tools
     {skill:"GIT", image: "/git.png", proficiency:"Advanced"},
     {skill:"GitHub", image: "/github.png", proficiency:"Advanced"},

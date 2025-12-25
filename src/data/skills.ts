@@ -2,6 +2,7 @@ export const SKILLS = [
     {
         area: "Core Skills",
         skills: [
+            {skill:"T3 Stack", image: "/t3.svg", proficiency:"Intermediate"},
             {skill:"Next.js", image: "/next.png", proficiency:"Intermediate"},
             {skill:"React", image: "/react.png", proficiency:"Intermediate"},
             {skill:"TypeScript", image: "/typescript.png", proficiency:"Intermediate"},

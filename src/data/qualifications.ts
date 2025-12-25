@@ -66,6 +66,7 @@ export const QUALIFICATIONS = [
             "Took on other supportive tasks to contribute to overall project success."
         ],
         skills: [
+            'T3 Stack',
             'Next.js',
             'TypeScript',
             'Tailwind CSS',
