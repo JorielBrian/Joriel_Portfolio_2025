@@ -18,6 +18,10 @@ p {
 }
 
 /* Custom Designs */
+.navbar {
+  @apply w-full sm:w-2/3 mt-5 bg-blue-900/60 rounded-full border-2 border-blue-700/80;
+}
+
 .icons {
   @apply size-13 sm:size-15 md:size-18 lg:size-20 xl:size-23 2xl:size-26 p-2 bg-gradient-to-b from-blue-900 to-blue-950 border-2 border-blue-700/80 rounded-2xl;
 }
