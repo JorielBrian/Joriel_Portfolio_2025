@@ -19,7 +19,7 @@ p {
 
 /* Custom Designs */
 .navbar {
-  @apply w-full sm:w-2/3 mt-5 bg-blue-900/60 rounded-full border-2 border-blue-700/80;
+  @apply w-full sm:w-2/3 mt-5 bg-blue-900/60 rounded-full border-2 border-blue-700/80 p-1 md:p-2 2xl:p-3 2xl:rounded-4xl;
 }
 
 .icons {

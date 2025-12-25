@@ -46,7 +46,8 @@ const Navigation = () =>{
                     </ul>
                 </div>
                 <div className="flex items-center !py-0">
-                    <a href="Joriel Brian Sudario - CV.pdf" target="_blank"><button className="px-3 py-1 bg-blue-700/60 rounded-full border-2 border-blue-600/80">Resume</button></a>
+                    <a href="Joriel Brian Sudario - CV.pdf" target="_blank"><button className="flex lg:hidden px-3 py-1 bg-blue-700/60 rounded-full border-2 border-blue-600/80">CV</button></a>
+                    <a href="Joriel Brian Sudario - CV.pdf" target="_blank"><button className="hidden lg:flex px-3 py-1 bg-blue-700/60 rounded-full border-2 border-blue-600/80">Resume</button></a>
                 </div>
             </div>
         </motion.section>
