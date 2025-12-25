@@ -21,10 +21,11 @@ export const QUALIFICATIONS = [
             'Eloquent',
             'Tailwind CSS',
             'JavaScript',
+            'GIT',
+            'GitHub',
             'SQL',
             'SQLite',
             'MySQL',
-            'GitHub',
             'Canva'
         ]
     },
@@ -70,6 +71,7 @@ export const QUALIFICATIONS = [
             'Next.js',
             'TypeScript',
             'Tailwind CSS',
+            'tRPC',
             'React',
             'Prisma',
             'SQL',
@@ -103,6 +105,7 @@ export const QUALIFICATIONS = [
             'R',
             'Shiny',
             'SQL',
+            'GitHub',
             'Excel',
             'Sketchup',
             'Cube Dynasm',
@@ -172,6 +175,7 @@ export const QUALIFICATIONS_PROJECTS = [
             'CSS',
             'JavaScript',
             'Bootstrap',
+            'GitHub',
             'GraphQL'
         ]
     },
