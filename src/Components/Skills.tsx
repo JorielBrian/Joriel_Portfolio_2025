@@ -29,7 +29,7 @@ const Skills = () =>{
                             {area.skills.map(skill => (
                                 <span key={skill.skill}>
                                     <motion.div animate={{y:[10, -10]}} transition={{ease:"linear", duration:2, repeat: Infinity, repeatType:"reverse"}}  className="relative p-3 justify-center">
-                                        <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{ease:"easeIn", duration:1.5}} src={skill.image} alt={skill.skill} className="icons rounded-xl p-1 md:p-2 2xl:p-3 bg-gray-500/75 2xl:rounded-4xl hover:animate-bounce m-auto"/>
+                                        <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{ease:"easeIn", duration:1.5}} src={skill.image} alt={skill.skill} title={skill.skill} className="icons rounded-xl p-1 md:p-2 2xl:p-3 bg-gray-500/75 2xl:rounded-4xl hover:animate-bounce m-auto"/>
                                         <h5 className="text-center font-bold text-amber-200 text-[11px] md:text-sm xl:text-lg">{skillrate(skill.proficiency)}</h5>
                                         <h5 className="text-center font-bold text-cyan-500 text-[11px] md:text-sm xl:text-lg">{skill.skill}</h5>
                                     </motion.div>

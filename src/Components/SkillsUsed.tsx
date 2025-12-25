@@ -6,8 +6,18 @@ function SkillsUsed({skills}: {skills:string[]}) {
         {skills.map(skill => (
             // <p>{skill}</p>
             SKILLS.find(s => s.skill === skill) 
-                ? <img src={SKILLS.find(s => s.skill === skill)?.image} alt={skill} className="icons !size-15" /> 
-                : <p key={skill} className="w-fit m-1 min-w-5 px-3 rounded-xl text-center 2xl:px-3 bg-sky-900/50 2xl:rounded-2xl text-cyan-500">{skill}</p>
+                ? <img 
+                    title={skill} 
+                    src={SKILLS.find(s => s.skill === skill)?.image} 
+                    alt={skill} 
+                    className="icons !size-15" 
+                  /> 
+                : <p 
+                    key={skill} 
+                    className="w-fit m-1 min-w-5 px-3 rounded-xl text-center 2xl:px-3 bg-sky-900/50 2xl:rounded-2xl text-cyan-500"
+                  >
+                    {skill}
+                  </p>
         ))} 
     </span>
   )
