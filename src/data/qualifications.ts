@@ -24,7 +24,7 @@ export const QUALIFICATIONS = [
             'SQL',
             'SQLite',
             'MySQL',
-            'Github',
+            'GitHub',
             'Canva'
         ]
     },
@@ -49,7 +49,7 @@ export const QUALIFICATIONS = [
             'Tailwind CSS',
             'JavaScript',
             'SQL',
-            'File Zila',
+            'FileZilla',
             'Canva'
         ]
     },
@@ -66,7 +66,7 @@ export const QUALIFICATIONS = [
             "Took on other supportive tasks to contribute to overall project success."
         ],
         skills: [
-            'Next JS',
+            'Next.js',
             'TypeScript',
             'Tailwind CSS',
             'React',
@@ -97,16 +97,16 @@ export const QUALIFICATIONS = [
         skills: [
             'HTML',
             'CSS',
-            'Javascript',
+            'JavaScript',
             'GraphQL',
             'R',
-            'R Shiny',
+            'Shiny',
             'SQL',
             'Excel',
-            'Sketchup 2D',
-            'Sketchup 3D',
+            'Sketchup',
+            'Cube Dynasm',
             'Computer Assembling',
-            'Circuits Assembling',
+            'Circuit Assembling',
             'Soldering'
         ]
     },
@@ -127,7 +127,7 @@ export const QUALIFICATIONS_PROJECTS = [
         ],
         skills: [
             'R',
-            'R Shiny',
+            'Shiny',
             'HTML',
             'SQL'
         ]
@@ -149,10 +149,9 @@ export const QUALIFICATIONS_PROJECTS = [
         ],
         skills: [
             'R',
-            'R Shiny',
+            'Shiny',
             'Excel',
-            'Sketchup 2D',
-            'Sketchup 3D',
+            'Sketchup',
         ]
     },
     {
@@ -190,10 +189,10 @@ export const QUALIFICATIONS_PROJECTS = [
         ],
         skills: [
             'R',
-            'R Shiny',
+            'Shiny',
             'HTML',
             'SQL',
-            'Dynasim',
+            'Cube Dynasm',
             'Excel',
         ]
     },
