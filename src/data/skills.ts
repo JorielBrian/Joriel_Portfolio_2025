@@ -12,8 +12,6 @@ export const SKILLS = [
             {skill:"SQL", image: "/sql.png", proficiency:"Intermediate"},
             {skill:"GIT", image: "/git.png", proficiency:"Advanced"},
             {skill:"GitHub", image: "/github.png", proficiency:"Advanced"},
-            // {skill:"HTML", image: "/html.png", proficiency:"Advanced"},
-            // {skill:"CSS", image: "/css.png", proficiency:"Advanced"},
         ]
     },
     {
@@ -25,12 +23,6 @@ export const SKILLS = [
             {skill:"WordPress", image: "/wordpress.png", proficiency:"Functional"},
             {skill:"GraphQL", image: "/graphql.png", proficiency:"Functional"},
             {skill:"Express.js", image: "/expressjs.png", proficiency:"Intermediate"},
-            // {skill:"Eloquent", image: "/eloquent.png", proficiency:"Functional"},
-            // {skill:"Flux UI", image: "/flux.png", proficiency:"Intermediate"},
-            // {skill:"Node.js", image: "/nodejs.png", proficiency:"Intermediate"},
-            // {skill:"Bootstrap", image: "/bootstrap.png", proficiency:"Advanced"},
-            // {skill:"Python", image: "/python.png", proficiency:"Beginner"},
-            // {skill:"Ubuntu Linux", image: "/ubuntu.png", proficiency:"Beginner"},
         ]
     },
     {
@@ -42,21 +34,4 @@ export const SKILLS = [
             {skill:"Soldering", image: "/soldering.png", proficiency:"Advanced"},
         ]
     },
-    // {
-    //     area: "Office Suites",
-    //     skills: [
-    //         {skill: "Word", image: "/word.png", proficiency: "Proficient"},
-    //         {skill: "Powerpoint", image: "/powerpoint.png", proficiency: "Proficient"},
-    //         {skill: "Excel", image: "/excel.png", proficiency: "Proficient"},
-    //     ]
-    // },
-    // {
-    //     area: "Graphics",
-    //     skills: [
-    //         {skill: "Canva", image: "/canva.png", proficiency: "Proficient"},
-    //         {skill: "Capcut", image: "/capcut.png", proficiency: "Proficient"},
-    //         {skill: "Powerdirector", image: "/powerdirector.png", proficiency: "Proficient"},
-    //     ]
-    // },
-    
 ];
