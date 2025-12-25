@@ -24,7 +24,7 @@ const Skills = () =>{
             <div className="flex flex-wrap p-1 sm:p-5 rounded-2xl justify-center">
                 {SKILLS && SKILLS.map(area => (
                     <div key={area.area} className="w-full">
-                        <div className="flex flex-wrap relative justify-center my-5">
+                        <section className="flex flex-wrap relative justify-center my-5">
                             <motion.h2 initial={{opacity:0}} whileInView={{opacity:1}} transition={{ease:"easeIn", duration:0.5}}  className="absolute content-center text-white/30 w-full h-full text-center font-bold ">{area.area.toUpperCase()}</motion.h2>
                             {area.skills.map(skill => (
                                 <span key={skill.skill}>
@@ -35,7 +35,7 @@ const Skills = () =>{
                                     </motion.div>
                                 </span>
                             ))}
-                        </div>
+                        </section>
                     </div>
                 ))}
             </div>
