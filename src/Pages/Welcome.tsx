@@ -9,7 +9,7 @@ const Welcome = () =>{
     window.scrollTo(0, 0);
 
     return (
-        <div id="home" className="w-full mt-10 xl:mt-30 ml-0">
+        <div id="home" className="w-full mt-10 ml-0">
             <div className="h-screen px-10 mb-20 xl:mb-0">
                 <motion.div initial={{y:100, opacity:0}} whileInView={{y:0, opacity:1}} transition={{ease:"easeIn", duration:1.5}}  className="text-center font-sans">
                     <h1 className="text-6xl font-bold sm:text-7xl md:text-8xl xl:text-9xl">Joriel Brian Sudario</h1>
@@ -19,7 +19,7 @@ const Welcome = () =>{
                     cursor cursorStyle = {'|'} cursorBlinking = {true} cursorColor="white"
                     /></h3>
                     {  CORE_SKILLS && CORE_SKILLS.map(skill => (
-                        <img key={skill.skill} src={skill.image} alt={skill.skill} className="inline size-6 sm:size-8 md:size-10 lg:size-12 xl:size-14 2xl:size-16 m-1 rounded-xl hover:animate-bounce"/>
+                        <img key={skill.skill} src={skill.image} alt={skill.skill} className="inline size-6 sm:size-8 md:size-10 lg:size-12 xl:size-14 2xl:size-16 m-1 rounded-md hover:animate-bounce"/>
                     )) }
                 </motion.div>
                 <motion.div initial={{y:-100, opacity:0}} whileInView={{y:0, opacity:1}} transition={{ease:"easeIn", duration:1.5}} className="py-4 mt-10">
