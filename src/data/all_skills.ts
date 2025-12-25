@@ -22,6 +22,7 @@ export const SKILLS: {skill: string, image: string, proficiency: string}[] = [
     {skill:"R", image: "/r.png", proficiency:"Beginner"},
 
     // Backend 
+    {skill:"tRPC", image: "/trpc.png", proficiency:"Intermediate"},
     {skill:"SQL", image: "/sql.png", proficiency:"Intermediate"},
     {skill:"Node.js", image: "/nodejs.png", proficiency:"Intermediate"},
 
@@ -32,7 +33,7 @@ export const SKILLS: {skill: string, image: string, proficiency: string}[] = [
     {skill:"Firebase", image: "/firebase.png", proficiency:"Functional"},
 
     // ORMs
-    {skill:"Prisma", image: "/prisma.png", proficiency:"Functional"},
+    {skill:"Prisma", image: "/prisma.png", proficiency:"Intermediate"},
     {skill:"GraphQL", image: "/graphql.png", proficiency:"Functional"},
     {skill:"Eloquent", image: "/eloquent.png", proficiency:"Functional"},
 
