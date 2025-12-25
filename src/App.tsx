@@ -1,9 +1,9 @@
 import './App.css'
-import Welcome from './Components/Welcome'
-import Qualifications from './Components/Qualifications'
+import Welcome from './Pages/Welcome'
+import Qualifications from './Pages/Qualifications'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './Layout'
-import Projects from './Components/Projects';
+import Projects from './Pages/Projects';
 
 function App() {
   return (
