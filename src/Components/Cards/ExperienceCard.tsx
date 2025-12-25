@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 
 function Experience(experience: {company:string, title:string, date:string, contract:string, description:string[], skills:string[]}) {
   return (
-    <section className="2xl:p-3 rounded-sm">
+    <article className="card 2xl:p-3 rounded-sm">
         <div key={experience.company} className="my-5 xl:flex">
             <motion.div initial={{x:-100, opacity:0}} whileInView={{x:0, opacity:1}} transition={{ease:"easeIn", duration:0.5}}  className="w-full xl:w-1/2 2xl:p-2">
                 <h1 className="text-2xl 2xl:text-3xl font-bold motion">{experience.title}</h1>
@@ -21,7 +21,8 @@ function Experience(experience: {company:string, title:string, date:string, cont
                 {/* SKILLS USED */}
                 <SkillsUsed skills={experience.skills} />
             </motion.div>
-        </div>    </section>
+        </div>    
+    </article>
   )
 }
 

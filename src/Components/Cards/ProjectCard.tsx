@@ -11,7 +11,7 @@ interface ProjectCardProps {
 
 function ProjectCard({name, description, image, skills, link}: ProjectCardProps) {
   return (
-    <article key={name} className="w-full p-2">
+    <article key={name} className="card w-full p-2">
         <motion.h1 initial={{opacity: 0, y: -100}} whileInView={{opacity: 1, y: 0}} transition={{ease:"easeInOut", duration:0.75}}  className="font-bold text-center lg:text-left text-3xl text-blue-600">{name}</motion.h1>
         <section className="lg:grid lg:grid-cols-2 lg:grid-rows-3">
             <motion.p 
