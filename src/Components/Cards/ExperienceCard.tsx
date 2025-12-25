@@ -1,4 +1,4 @@
-import SkillsUsed from "./SkillsUsed";
+import SkillsUsed from "../SkillsUsed";
 import { motion } from "framer-motion"
 
 function Experience(experience: {company:string, title:string, date:string, contract:string, description:string[], skills:string[]}) {

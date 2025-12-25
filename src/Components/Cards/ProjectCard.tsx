@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import SkillsUsed from "../Components/SkillsUsed";
+import SkillsUsed from "../SkillsUsed";
 
 interface ProjectCardProps {
   name: string;

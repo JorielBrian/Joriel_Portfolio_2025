@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 import { INTRODUCTION } from "../data/index";
-import About from "../Components/About";
-import Skills from "../Components/Skills";
+import About from "../Components/Sections/About";
+import Skills from "../Components/Sections/Skills";
 import { Typewriter} from "react-simple-typewriter";
 import { CORE_SKILLS } from "../data/core_skills";
 

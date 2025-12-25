@@ -1,4 +1,4 @@
-import { SKILLS } from "../data/skills";
+import { SKILLS } from "../../data/skills";
 import { motion } from "framer-motion";
 
 const Skills = () =>{

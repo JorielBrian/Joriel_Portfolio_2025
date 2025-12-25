@@ -1,5 +1,5 @@
 import { PROJECTS } from "../data/projects"
-import ProjectCard from "../Components/ProjectCard";
+import ProjectCard from "../Components/Cards/ProjectCard";
 
 const Projects = () => {
     window.scrollTo(0, 0);

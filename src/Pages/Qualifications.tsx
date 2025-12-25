@@ -1,5 +1,5 @@
 import { QUALIFICATIONS, QUALIFICATIONS_PROJECTS } from "../data/qualifications";
-import Experience from "../Components/Experience";
+import Experience from "../Components/Cards/ExperienceCard";
 import { motion } from "framer-motion"
 
 const Qualifications = () =>{
