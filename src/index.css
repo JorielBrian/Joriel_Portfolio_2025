@@ -1,21 +1,10 @@
 @import "tailwindcss";
 
 :root {
-  background: rgb(0, 1, 5);
-  background: radial-gradient(
-    circle,
-    rgba(0, 1, 5, 1) 9%,
-    rgba(3, 30, 94, 1) 70%,
-    rgba(6, 55, 170, 1) 100%
-  );
-  color: white;
-  overflow-x: hidden;
+  @apply bg-[radial-gradient(circle_at_center,_#000105_9%,_#031e5e_70%,_#0637aa_100%)] text-white overflow-x-hidden;
 }
 
-.icons {
-  @apply size-13 sm:size-15 md:size-18 lg:size-20 xl:size-23 2xl:size-26;
-}
-
+/* Common Designs */
 div {
   @apply sm:p-3 md:p-5;
 }
@@ -28,9 +17,7 @@ p {
   @apply text-base md:text-lg xl:text-xl my-3;
 }
 
-/* #home div{
-  border: solid;
-} */
-/* div{
-  border: solid;
-} */
+/* Custom Designs */
+.icons {
+  @apply size-13 sm:size-15 md:size-18 lg:size-20 xl:size-23 2xl:size-26 p-2 bg-gradient-to-b from-blue-900 to-blue-950 border-2 border-blue-700/80 rounded-2xl;
+}
