@@ -10,10 +10,10 @@ const Navigation = () =>{
     window.addEventListener('scroll', scrolled);
 
     return (
-    <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{ease:"easeIn", duration:1}} className={scroll ? "bg-blue-900/60 sticky top-0 z-1 w-full" : "pt-10 w-full"}>
-        <div className="flex w-full px-5 pb-3 rounded-sm justify-between">
+    <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{ease:"easeIn", duration:1}} className={scroll ? "!py-0 bg-blue-900/60 sticky top-0 z-1 w-full" : "pt-10 w-full"}>
+        <div className="flex w-full !py-0 px-5 pb-3 rounded-sm justify-between">
             <div className="w-fit">
-                <img src="/logo.png" alt="JB logo" className="m-auto lg:m-1 size-25"/>
+                <img src="/logo.png" alt="JB logo" className="icons"/>
             </div>
             {/* MOBILE VIEW */}
             <ul className="flex lg:hidden relative py-auto items-center text-md md:text-lg xl:text-xl *:w-fit *:h-10 *:m-1 *:p-3 *:text-center *:rounded-xl *:hover:scale-110 *:active:bg-blue-950 *:active:scale-90">

@@ -7,7 +7,7 @@ const Qualifications = () =>{
         <>
         <div className="w-4/5 mx-auto my-5 p-5 rounded-sm content-center overflow-">
             <motion.h1 initial={{opacity:0}} whileInView={{opacity:1}} transition={{ease:"easeIn", duration:0.5}}  className="text-4xl font-bold text-center">Key Qualifications</motion.h1>
-            <div className="2xl:p-3 rounded-sm">
+            <section className="2xl:p-3 rounded-sm">
                 {QUALIFICATIONS && QUALIFICATIONS.map(qualification => (
                     <div key={qualification.company} className="my-5 xl:flex">
                         <motion.div initial={{x:-100, opacity:0}} whileInView={{x:0, opacity:1}} transition={{ease:"easeIn", duration:0.5}}  className="w-full xl:w-1/2 2xl:p-2">
@@ -18,23 +18,23 @@ const Qualifications = () =>{
                         </motion.div>
                         {/* DESCRIPTIONS */}
                         <motion.div initial={{x:100, opacity:0}} whileInView={{x:0, opacity:1}} transition={{ease:"easeIn", duration:0.5}}  className="w-full xl:w-1/2">
-                            <div className="py-2">
+                            <span className="py-2">
                                 {qualification.description.map(task => (
                                     <p key={task}>{task}</p>
                                 ))}
-                            </div>
+                            </span>
                             {/* SKILLS USED */}
-                            <div className="flex flex-wrap items-center">
+                            <span className="flex flex-wrap items-center">
                                 {qualification.skills.map(skill => (
                                     <p key={skill} className="w-fit m-1 min-w-5 px-3 rounded-xl text-center 2xl:px-3 bg-sky-900/50 2xl:rounded-2xl text-cyan-500">{skill}</p>
                                 ))} 
-                            </div>
+                            </span>
                         </motion.div>
                     </div>
                 ))}
-            </div>
+            </section>
             <motion.h1 initial={{opacity:0}} whileInView={{opacity:1}} transition={{ease:"easeIn", duration:0.5}}  className="mt-10 text-4xl font-bold text-center">Contractual Projects</motion.h1>
-            <div className="2xl:p-3 rounded-sm">
+            <section className="2xl:p-3 rounded-sm">
                 {QUALIFICATIONS_PROJECTS && QUALIFICATIONS_PROJECTS.map(projects => (
                     <div key={projects.company} className="my-5 xl:flex">
                         <motion.div initial={{x:-100, opacity:0}} whileInView={{x:0, opacity:1}} transition={{ease:"easeIn", duration:0.5}}  className="w-full xl:w-1/2 2xl:p-2">
@@ -45,21 +45,21 @@ const Qualifications = () =>{
                         </motion.div>
                         {/* DESCRIPTIONS */}
                         <motion.div initial={{x:100, opacity:0}} whileInView={{x:0, opacity:1}} transition={{ease:"easeIn", duration:0.5}}  className="w-full xl:w-1/2">
-                            <div className="py-2">
+                            <span className="py-2">
                                 {projects.description.map(task => (
                                     <p key={task}>{task}</p>
                                 ))}
-                            </div>
+                            </span>
                             {/* SKILLS USED */}
-                            <div className="flex flex-wrap items-center">
+                            <span className="flex flex-wrap items-center">
                                 {projects.skills.map(skill => (
                                     <p key={skill} className="w-fit m-1 min-w-5 px-3 rounded-xl text-center 2xl:px-3 bg-sky-900/50 2xl:rounded-2xl text-cyan-500">{skill}</p>
                                 ))} 
-                            </div>
+                            </span>
                         </motion.div>
                     </div>
                 ))}
-            </div>
+            </section>
         </div>
         </>
     );
