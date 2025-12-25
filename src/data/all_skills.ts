@@ -1,4 +1,4 @@
-export const SKILLS = [
+export const SKILLS: {skill: string, image: string, proficiency: string}[] = [
     // Fundamental Skills
     {skill:"PHP", image: "/php.png", proficiency:"Proficient"},
     {skill:"HTML", image: "/html.png", proficiency:"Advanced"},
@@ -29,6 +29,7 @@ export const SKILLS = [
     {skill:"PostgreSQL", image: "/postgresql.png", proficiency:"Intermediate"},
     {skill:"MySQL", image: "/mysql.png", proficiency:"Intermediate"},
     {skill:"SQLite", image: "/sqlite.png", proficiency:"Intermediate"},
+    {skill:"Firebase", image: "/firebase.png", proficiency:"Functional"},
 
     // ORMs
     {skill:"Prisma", image: "/prisma.png", proficiency:"Functional"},
@@ -59,4 +60,7 @@ export const SKILLS = [
     {skill:"Canva", image: "/canva.png", proficiency: "Proficient"},
     {skill:"Capcut", image: "/capcut.png", proficiency: "Proficient"},
     {skill:"Powerdirector", image: "/powerdirector.png", proficiency: "Proficient"},
+
+    // Other Skills
+    {skill:"Facebook", image: "/facebook.png", proficiency: "Proficient"},
 ];

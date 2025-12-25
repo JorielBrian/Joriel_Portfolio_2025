@@ -19,7 +19,7 @@ export const PROJECTS = [
         link:"https://mini-hcm-time-tracking.vercel.app",
         description:"Project for Cornerstone Assessment. Developed a mini HCM Time Tracking System using Next.js, TypeScript, Firebase, and Tailwind CSS. Implemented user authentication, time tracking features, and a responsive UI to enhance user experience.",
         skills:[
-            'Next.JS',
+            'Next.js',
             'Firebase',
             'Tailwind CSS',
             'TypeScript',
@@ -30,7 +30,7 @@ export const PROJECTS = [
         image:"library_project.png",
         description:"Successfully completed a technical assessment for Citrof Group, quickly learning Next.js, Prisma, and PostgreSQL in just three days, demonstrating adaptability, problem-solving, and a strong ability to learn new technologies under tight deadlines.",
         skills:[
-            'Next.JS',
+            'Next.js',
             'TypeScript',
             'Tailwind CSS',
             'Prisma',
