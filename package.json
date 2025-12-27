@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fireworks-js/react": "^2.10.8",
     "@tailwindcss/vite": "^4.0.15",
+    "fireworks-js": "^2.10.8",
     "framer-motion": "^12.5.0",
     "lucide-react": "^0.562.0",
     "react": "^19.0.0",

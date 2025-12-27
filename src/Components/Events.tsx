@@ -7,6 +7,7 @@ const Events = () => {
   switch(month){
     case 11:
       return <Christmas />
+      break;
   }
 }
 
