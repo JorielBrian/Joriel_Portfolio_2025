@@ -1,13 +1,13 @@
-export type Skill = {
+export interface Skill {
     skill: string,
     image: string,
     proficiency: string
-}[]
+}
 
-export type Skills = {
+export interface Skills {
     area: string,
-    skills: Skill
-}[]
+    skills: Skill[]
+}
 
 export type Qualification = {
     title: string,
