@@ -1,6 +1,6 @@
 import { Skill } from "./types";
 
-export const SKILLS: Skill = [
+export const SKILLS: Skill[] = [
     // Fundamental Skills
     {skill:"PHP", image: "/php.png", proficiency:"Proficient"},
     {skill:"HTML", image: "/html.png", proficiency:"Advanced"},
