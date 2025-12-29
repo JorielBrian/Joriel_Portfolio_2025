@@ -1,4 +1,6 @@
-export const QUALIFICATIONS = [
+import { Qualification } from './types'
+
+export const QUALIFICATIONS: Qualification = [
     {
         title:"Project Lead Developer",
         company:"Hills of Glory - Mabalacat",

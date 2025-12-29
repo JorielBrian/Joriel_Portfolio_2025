@@ -1,4 +1,6 @@
-export const SKILLS = [
+import { Skills } from './types';
+
+export const SKILLS: Skills = [
     {
         area: "Core Skills",
         skills: [

@@ -1,4 +1,6 @@
-export const PROJECTS = [
+import { Project } from "./types"
+
+export const PROJECTS: Project = [
     {
         name: "Hills of Glory Website",
         image:"hog_site.png",
@@ -11,7 +13,7 @@ export const PROJECTS = [
             'Tailwind CSS',
             'PHP',
             'Canva'
-        ]
+        ],
     },
     {
         name: "Mini HCM Time Tracking System",
