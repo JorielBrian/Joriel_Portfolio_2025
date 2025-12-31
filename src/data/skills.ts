@@ -1,4 +1,4 @@
-import { Skills } from './types';
+// import { Skills } from './types';
 
 export const SKILLS = [
     {
