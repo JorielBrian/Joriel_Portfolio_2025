@@ -14,14 +14,14 @@ export interface Skills {
     skills: Skill[]
 }
 
-export type Qualification = {
+export interface Qualification {
     title: string,
     company: string,
     date: string,
     contract: string,
     description: string[],
     skills: string[]
-}[];
+};
 
 export type Project = {
     name: string,
