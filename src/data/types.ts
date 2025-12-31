@@ -1,7 +1,12 @@
+import { Proficiency, Preference, Category } from "./enum";
+
 export interface Skill {
     skill: string,
+    focus?: boolean,
     image: string,
-    proficiency: string
+    proficiency: Proficiency,
+    preference: Preference,
+    category: Category
 }
 
 export interface Skills {

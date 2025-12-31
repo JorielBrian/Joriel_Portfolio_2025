@@ -3,7 +3,7 @@ import { INTRODUCTION } from "../data/index";
 import About from "../Components/Sections/About";
 import Skills from "../Components/Sections/Skills";
 import { Typewriter} from "react-simple-typewriter";
-import { CORE_SKILLS } from "../data/core_skills";
+import { SKILLS } from "../data/all_skills";
 
 const Welcome = () =>{
     window.scrollTo(0, 0);
@@ -18,7 +18,7 @@ const Welcome = () =>{
                     loop = {true}
                     cursor cursorStyle = {'|'} cursorBlinking = {true} cursorColor="white"
                     /></h3>
-                    {  CORE_SKILLS && CORE_SKILLS.map(skill => (
+                    { SKILLS && SKILLS.filter(skill => skill.focus === true).map(skill => (
                         <img key={skill.skill} src={skill.image} alt={skill.skill} className="inline size-6 sm:size-8 md:size-10 lg:size-12 xl:size-14 2xl:size-16 m-1 rounded-md hover:animate-pulse"/>
                     )) }
                 </motion.div>
