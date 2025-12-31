@@ -9,10 +9,10 @@ export interface Skill {
     category: Category
 }
 
-export interface Skills {
-    area: string,
-    skills: Skill[]
-}
+// export interface Skills {
+//     area: string,
+//     skills: Skill[]
+// }
 
 export type Qualification = {
     title: string,
