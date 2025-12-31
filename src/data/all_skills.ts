@@ -3,7 +3,7 @@ import { Proficiency, Preference, Category } from "./enum";
 
 export const SKILLS: Skill[] = [
     // Stacks
-    {skill:"T3 Stack", image: "/t3.svg", proficiency:Proficiency.INTERMEDIATE, preference:Preference.SUB_SKILL, category:Category.STACK},
+    {skill:"T3 Stack", image: "/t3.svg", proficiency:Proficiency.INTERMEDIATE, preference:Preference.CORE_SKILL, category:Category.STACK},
     {skill:"TALL Stack", image: "/tall.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.SUB_SKILL, category:Category.STACK},
 
     // Fundamental Skills
@@ -29,8 +29,8 @@ export const SKILLS: Skill[] = [
     {skill:"Ubuntu Linux", image: "/ubuntu.png", proficiency:Proficiency.FUNCTIONAL, preference:Preference.OTHER, category:Category.OS},
 
     // Backend 
-    {skill:"tRPC", image: "/trpc.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.SUB_SKILL, category:Category.BACKEND},
-    {skill:"SQL", image: "/sql.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.SUB_SKILL, category:Category.BACKEND},
+    {skill:"tRPC", image: "/trpc.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.CORE_SKILL, category:Category.BACKEND},
+    {skill:"SQL", image: "/sql.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.CORE_SKILL, category:Category.BACKEND},
     {skill:"Node.js", image: "/nodejs.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.OTHER, category:Category.BACKEND},
 
     // Databases
