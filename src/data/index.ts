@@ -10,14 +10,14 @@ export const ABOUT: string[] = [
     "Outside of coding, spending time with my family is my greatest source of joy and strength—it helps me recharge emotionally and stay grounded. I also serve as a Lead Guitarist at Hills of Glory Mabalacat, where I express my passion for music and worship. Additionally, I find peace and encouragement in fellowship with my disciples and churchmates, growing together through God's Word."
 ];
 
-// export const CONTACTS: {type: string, contact: string}[] = [
-//     {type:"email", contact:"jorielsudario@gmail.com"},
-//     {type:"phone", contact:"+63 965 447 5177"}
-// ]
-// export const SOCIAL: {social: string, link: string, image:string}[] = [
-//     {social:"Facebook", link:"https://www.facebook.com/jorielbrian.sudario?mibextid=ZbWKwL", image:"/facebook.png"},
-//     {social:"Instagram", link:"https://instagram.com/jorielbrian?igshid=MzNlNGNkZWQ4Mg==", image:"/instagram.png"},
-//     {social:"Tiktok", link:"https://www.tiktok.com/@joriel91011?_t=8dVw1EU01J9&_r=1", image:"/tiktok.png"},
-//     {social:"LinkedIn", link:"https://www.linkedin.com/in/joriel-brian-sudario-b14728265", image:"/linkedin.png"},
-//     {social:"Github", link:"https://github.com/JorielBrian", image:"/github.png"},
-// ]
+export const CONTACTS: {type: string, contact: string}[] = [
+    {type:"email", contact:"jorielsudario@gmail.com"},
+    {type:"phone", contact:"+63 965 447 5177"}
+]
+export const SOCIAL: {social: string, link: string, image:string}[] = [
+    {social:"Facebook", link:"https://www.facebook.com/jorielbrian.sudario?mibextid=ZbWKwL", image:"/facebook.png"},
+    {social:"Instagram", link:"https://instagram.com/jorielbrian?igshid=MzNlNGNkZWQ4Mg==", image:"/instagram.png"},
+    {social:"Tiktok", link:"https://www.tiktok.com/@joriel91011?_t=8dVw1EU01J9&_r=1", image:"/tiktok.png"},
+    {social:"LinkedIn", link:"https://www.linkedin.com/in/joriel-brian-sudario-b14728265", image:"/linkedin.png"},
+    {social:"Github", link:"https://github.com/JorielBrian", image:"/github.png"},
+]
