@@ -2,18 +2,19 @@ import { Skill } from "./types";
 import { Proficiency, Preference, Category } from "./enum";
 
 export const SKILLS: Skill[] = [
-    // T3 Stack
-    {skill:"T3 Stack", image: "/t3.svg", proficiency:Proficiency.INTERMEDIATE, preference:Preference.SUB_SKILL, category:Category.STACK},
+    // Core Skills
+    
     {skill:"Next.js", focus: true, image: "/next.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.CORE_SKILL, category:Category.FRAMEWORK},
+    {skill:"Laravel", focus: true, image: "/laravel.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.CORE_SKILL, category:Category.FRAMEWORK},
+    {skill:"React", focus: true, image: "/react.png", proficiency:Proficiency.PROFICIENT, preference:Preference.CORE_SKILL, category:Category.FRAMEWORK},
     {skill:"TypeScript", focus:true, image: "/typescript.png", proficiency:Proficiency.PROFICIENT, preference:Preference.CORE_SKILL, category:Category.LANGUAGE},
     {skill:"Tailwind CSS", focus:true, image: "/tailwind.png", proficiency:Proficiency.PROFICIENT, preference:Preference.CORE_SKILL, category:Category.FRAMEWORK},
-    {skill:"tRPC", image: "/trpc.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.OTHER, category:Category.BACKEND},
-    {skill:"Prisma", focus:true, image: "/prisma.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.CORE_SKILL, category:Category.ORM},
-    {skill:"Vercel", focus:true, image: "/vercel.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.CORE_SKILL, category:Category.VERSION_CONTROL},
+    {skill:"GIT", focus:true, image: "/git.png", proficiency:Proficiency.PROFICIENT, preference:Preference.CORE_SKILL, category:Category.VERSION_CONTROL},
+    {skill:"Vercel", focus:true, image: "/vercel.png", proficiency:Proficiency.PROFICIENT, preference:Preference.CORE_SKILL, category:Category.VERSION_CONTROL},
 
-    // TALL Stack
+    // Tech Stack
+    {skill:"T3 Stack", image: "/t3.svg", proficiency:Proficiency.INTERMEDIATE, preference:Preference.SUB_SKILL, category:Category.STACK},
     {skill:"TALL Stack", image: "/tall.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.SUB_SKILL, category:Category.STACK},
-    {skill:"Laravel", image: "/laravel.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.SUB_SKILL, category:Category.FRAMEWORK},
     {skill:"Livewire", image: "/livewire.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.SUB_SKILL, category:Category.FRAMEWORK},
     {skill:"Eloquent", image: "/eloquent.png", proficiency:Proficiency.FUNCTIONAL, preference:Preference.OTHER, category:Category.ORM},
 
@@ -28,7 +29,6 @@ export const SKILLS: Skill[] = [
     {skill:"R", image: "/r.png", proficiency:Proficiency.FUNCTIONAL, preference:Preference.OTHER, category:Category.LANGUAGE},
 
     // Frameworks and CLIs
-    {skill:"React", image: "/react.png", proficiency:Proficiency.PROFICIENT, preference:Preference.CORE_SKILL, category:Category.FRAMEWORK},
     {skill:"Bootstrap", image: "/bootstrap.png", proficiency:Proficiency.PROFICIENT, preference:Preference.OTHER, category:Category.FRAMEWORK},
     {skill:"WordPress", image: "/wordpress.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.CORE_SKILL, category:Category.CLI},
     {skill:"Express.js", image: "/expressjs.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.SUB_SKILL, category:Category.FRAMEWORK},
@@ -37,6 +37,7 @@ export const SKILLS: Skill[] = [
     // Backend 
     {skill:"SQL", image: "/sql.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.CORE_SKILL, category:Category.BACKEND},
     {skill:"Node.js", image: "/nodejs.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.OTHER, category:Category.BACKEND},
+    {skill:"tRPC", image: "/trpc.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.OTHER, category:Category.BACKEND},
 
     // Databases
     {skill:"PostgreSQL", image: "/postgresql.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.OTHER, category:Category.DATABASE},
@@ -45,10 +46,10 @@ export const SKILLS: Skill[] = [
     {skill:"Firebase", image: "/firebase.png", proficiency:Proficiency.FUNCTIONAL, preference:Preference.OTHER, category:Category.DATABASE},
 
     // ORMs
+    {skill:"Prisma", image: "/prisma.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.SUB_SKILL, category:Category.ORM},
     {skill:"GraphQL", image: "/graphql.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.OTHER, category:Category.ORM},
 
     // Tools
-    {skill:"GIT", focus:true, image: "/git.png", proficiency:Proficiency.PROFICIENT, preference:Preference.CORE_SKILL, category:Category.VERSION_CONTROL},
     {skill:"GitHub", image: "/github.png", proficiency:Proficiency.PROFICIENT, preference:Preference.CORE_SKILL, category:Category.VERSION_CONTROL},
     {skill:"Vite", image: "/vite.svg", proficiency:Proficiency.PROFICIENT, preference:Preference.OTHER, category:Category.OTHER},
     {skill:"Hostinger", image: "/hostinger.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.SUB_SKILL, category:Category.VERSION_CONTROL},
