@@ -104,9 +104,9 @@ const Footer = () =>{
                 </section>
             </div>
             <div className="border-t border-gray-800 pt-8">
-                <div className="flex flex-wrap md:flex-row justify-between items-center gap-6">
+                <div className="flex flex-wrap justify-between items-center">
                     {/* Tech Stack */}
-                    <div className="flex items-center gap-4">
+                    <div className="flex w-full xl:w-1/2 justify-center items-center gap-4">
                         <span className="text-gray-400">Built with:</span>
                         <div className="flex gap-3">
                             {techStack.map((tech, index) => (
@@ -122,7 +122,7 @@ const Footer = () =>{
                     </div>
 
                     {/* Copyright */}
-                    <div className="text-center xl:text-right">
+                    <div className="flex flex-col w-full xl:w-1/2 text-center xl:text-right justify-center items-center xl:items-end">
                         <p className="text-gray-400 text-sm">
                             © {new Date().getFullYear()} Joriel Sudario. All rights reserved.
                         </p>
