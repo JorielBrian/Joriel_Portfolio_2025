@@ -26,7 +26,7 @@ export enum Category {
     ORM = "ORMs",
     STACK = "Stacks",
     TOOLS = "Tools",
-    VERSION_CONTROL = "Version Control",
+    VERSION_CONTROL = "CI/CD & Deployment",
     GRAPHICS = "Graphics",
     SOCIAL_MEDIA = "Social Media",
     OS = "Operating System",
