@@ -3,11 +3,11 @@ import { Proficiency, Preference, Category } from "./enum";
 
 export const SKILLS: Skill[] = [
     // T3 Stack
-    {skill:"T3 Stack", focus: true, image: "/t3.svg", proficiency:Proficiency.INTERMEDIATE, preference:Preference.CORE_SKILL, category:Category.STACK},
+    {skill:"T3 Stack", image: "/t3.svg", proficiency:Proficiency.INTERMEDIATE, preference:Preference.SUB_SKILL, category:Category.STACK},
     {skill:"Next.js", focus: true, image: "/next.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.CORE_SKILL, category:Category.FRAMEWORK},
     {skill:"TypeScript", focus:true, image: "/typescript.png", proficiency:Proficiency.PROFICIENT, preference:Preference.CORE_SKILL, category:Category.LANGUAGE},
     {skill:"Tailwind CSS", focus:true, image: "/tailwind.png", proficiency:Proficiency.PROFICIENT, preference:Preference.CORE_SKILL, category:Category.FRAMEWORK},
-    {skill:"tRPC", focus: true, image: "/trpc.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.CORE_SKILL, category:Category.BACKEND},
+    {skill:"tRPC", image: "/trpc.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.OTHER, category:Category.BACKEND},
     {skill:"Prisma", focus:true, image: "/prisma.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.CORE_SKILL, category:Category.ORM},
     {skill:"Vercel", focus:true, image: "/vercel.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.CORE_SKILL, category:Category.VERSION_CONTROL},
 
