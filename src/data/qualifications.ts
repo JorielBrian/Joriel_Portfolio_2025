@@ -76,6 +76,7 @@ export const QUALIFICATIONS: Qualification[] = [
             'tRPC',
             'React',
             'Prisma',
+            'Vercel',
             'SQL',
             'PostgreSQL',
             'GIT',

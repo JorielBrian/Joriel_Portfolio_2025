@@ -9,7 +9,7 @@ import {
   FiLinkedin,
   FiInstagram 
 } from "react-icons/fi";
-import { SiReact, SiTypescript, SiTailwindcss } from "react-icons/si";
+import { SiReact, SiTypescript, SiTailwindcss, SiVercel } from "react-icons/si";
 
 const Footer = () =>{
     const contactInfo = [
@@ -33,7 +33,8 @@ const Footer = () =>{
     const techStack = [
         { icon: <SiReact />, label: "React" },
         { icon: <SiTypescript />, label: "TypeScript" },
-        { icon: <SiTailwindcss />, label: "Tailwind CSS" }
+        { icon: <SiTailwindcss />, label: "Tailwind CSS" },
+        { icon: <SiVercel />, label: "Vercel"}
     ];
     
     return (
@@ -93,7 +94,7 @@ const Footer = () =>{
                                 key={index}
                                 href={social.href}
                                 aria-label={social.label}
-                                className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 hover:text-white transition-all duration-300 hover:scale-110 hover:shadow-lg"
+                                className="p-3 bg-gradient-to-b from-blue-900 to-blue-950 border-2 border-blue-700/80 rounded-full hover:bg-gray-700 hover:text-white transition-all duration-300 hover:scale-110 hover:shadow-lg"
                             >
                             <span className="text-xl">{social.icon}</span>
                             </a>
@@ -125,7 +126,7 @@ const Footer = () =>{
                         © {new Date().getFullYear()} Joriel Sudario. All rights reserved.
                     </p>
                     <p className="text-gray-500 text-xs mt-1">
-                        This portfolio is developed using React, TypeScript, and Tailwind CSS
+                        This portfolio is developed using React, TypeScript, Tailwind CSS, and Vercel
                     </p>
                     </div>
                 </div>

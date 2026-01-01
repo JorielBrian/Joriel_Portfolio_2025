@@ -25,6 +25,7 @@ export const PROJECTS: Project = [
             'Firebase',
             'Tailwind CSS',
             'TypeScript',
+            'Vercel'
         ]
     },
     {
@@ -38,7 +39,8 @@ export const PROJECTS: Project = [
             'Prisma',
             'PostgreSQL',
             'React',
-            'SQL'
+            'SQL',
+            'Vercel'
         ]
     },
     {
