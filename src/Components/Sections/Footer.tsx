@@ -9,7 +9,7 @@ import {
   FiLinkedin,
   FiInstagram 
 } from "react-icons/fi";
-import { SiReact, SiTypescript, SiTailwindcss, SiVercel } from "react-icons/si";
+import { SiReact, SiTypescript, SiTailwindcss, SiVercel, SiVite } from "react-icons/si";
 
 const Footer = () =>{
     const contactInfo = [
@@ -34,7 +34,8 @@ const Footer = () =>{
         { icon: <SiReact />, label: "React" },
         { icon: <SiTypescript />, label: "TypeScript" },
         { icon: <SiTailwindcss />, label: "Tailwind CSS" },
-        { icon: <SiVercel />, label: "Vercel"}
+        { icon: <SiVercel />, label: "Vercel"},
+        { icon: <SiVite/>, label: "Vite"}
     ];
     
     return (
@@ -103,31 +104,31 @@ const Footer = () =>{
                 </section>
             </div>
             <div className="border-t border-gray-800 pt-8">
-                <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+                <div className="flex flex-wrap md:flex-row justify-between items-center gap-6">
                     {/* Tech Stack */}
                     <div className="flex items-center gap-4">
-                    <span className="text-gray-400">Built with:</span>
-                    <div className="flex gap-3">
-                        {techStack.map((tech, index) => (
-                        <div
-                            key={index}
-                            className="flex items-center gap-2 px-3 py-2 bg-gray-800/50 rounded-lg"
-                        >
-                            <span className="text-lg">{tech.icon}</span>
-                            <span className="text-sm font-medium">{tech.label}</span>
+                        <span className="text-gray-400">Built with:</span>
+                        <div className="flex gap-3">
+                            {techStack.map((tech, index) => (
+                            <div
+                                key={index}
+                                className="flex items-center gap-2 px-3 py-2 bg-gray-800/50 rounded-lg"
+                            >
+                                <span className="text-lg">{tech.icon}</span>
+                                <span className="text-sm font-medium">{tech.label}</span>
+                            </div>
+                            ))}
                         </div>
-                        ))}
-                    </div>
                     </div>
 
                     {/* Copyright */}
-                    <div className="text-center md:text-right">
-                    <p className="text-gray-400 text-sm">
-                        © {new Date().getFullYear()} Joriel Sudario. All rights reserved.
-                    </p>
-                    <p className="text-gray-500 text-xs mt-1">
-                        This portfolio is developed using React, TypeScript, Tailwind CSS, and Vercel
-                    </p>
+                    <div className="text-center xl:text-right">
+                        <p className="text-gray-400 text-sm">
+                            © {new Date().getFullYear()} Joriel Sudario. All rights reserved.
+                        </p>
+                        <p className="text-gray-500 text-xs mt-1">
+                            This portfolio is developed using React, TypeScript, Tailwind CSS, Vite, and Vercel
+                        </p>
                     </div>
                 </div>
             </div>

@@ -50,6 +50,7 @@ export const SKILLS: Skill[] = [
     // Tools
     {skill:"GIT", focus:true, image: "/git.png", proficiency:Proficiency.PROFICIENT, preference:Preference.CORE_SKILL, category:Category.VERSION_CONTROL},
     {skill:"GitHub", image: "/github.png", proficiency:Proficiency.PROFICIENT, preference:Preference.CORE_SKILL, category:Category.VERSION_CONTROL},
+    {skill:"Vite", image: "/vite.svg", proficiency:Proficiency.PROFICIENT, preference:Preference.OTHER, category:Category.OTHER},
     {skill:"Hostinger", image: "/hostinger.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.SUB_SKILL, category:Category.VERSION_CONTROL},
     {skill:"Flux UI", image: "/flux.png", proficiency:Proficiency.INTERMEDIATE, preference:Preference.OTHER, category:Category.TOOLS},
     {skill:"FileZilla", image: "/filezilla.png", proficiency:Proficiency.FUNCTIONAL, preference:Preference.OTHER, category:Category.VERSION_CONTROL},
