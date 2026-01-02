@@ -40,7 +40,7 @@ const Navigation = () =>{
                             <NavLink 
                                 to='/' 
                                 className={({ isActive }) => 
-                                    `navButton ${isActive ? 'active' : ''}`
+                                    `button ${isActive ? 'active' : ''}`
                                 }
                             >
                                 <House />
@@ -50,7 +50,7 @@ const Navigation = () =>{
                             <NavLink 
                                 to='/experience' 
                                 className={({ isActive }) => 
-                                    `navButton ${isActive ? 'active' : ''}`
+                                    `button ${isActive ? 'active' : ''}`
                                 }
                             >
                                 <BriefcaseBusiness />
@@ -60,7 +60,7 @@ const Navigation = () =>{
                             <NavLink 
                                 to='/project' 
                                 className={({ isActive }) => 
-                                    `navButton ${isActive ? 'active' : ''}`
+                                    `button ${isActive ? 'active' : ''}`
                                 }
                             >
                                 <Folder />
@@ -73,7 +73,7 @@ const Navigation = () =>{
                             <NavLink 
                                 to='/' 
                                 className={({ isActive }) => 
-                                    `navButton ${isActive ? 'active' : ''}`
+                                    `button ${isActive ? 'active' : ''}`
                                 }
                             >
                                 Home
@@ -83,7 +83,7 @@ const Navigation = () =>{
                             <NavLink 
                                 to='/experience' 
                                 className={({ isActive }) => 
-                                    `navButton ${isActive ? 'active' : ''}`
+                                    `button ${isActive ? 'active' : ''}`
                                 }
                             >
                                 Experiences
@@ -93,7 +93,7 @@ const Navigation = () =>{
                             <NavLink 
                                 to='/project' 
                                 className={({ isActive }) => 
-                                    `navButton ${isActive ? 'active' : ''}`
+                                    `button ${isActive ? 'active' : ''}`
                                 }
                             >
                                 Projects

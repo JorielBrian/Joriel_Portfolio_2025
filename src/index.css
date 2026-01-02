@@ -35,7 +35,7 @@ p {
   @apply relative items-center text-base;
 }
 
-.navButton {
+.button {
   @apply flex w-fit h-10 m-1 px-3 text-center place-items-center
         hover:scale-105 hover:font-semibold
         hover:underline rounded-full
