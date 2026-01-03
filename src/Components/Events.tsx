@@ -5,7 +5,7 @@ const Events = () => {
   const month = today.getMonth();
 
   switch(month){
-    case 11:
+    case 0 & 11:
       return <Christmas />
       break;
   }
