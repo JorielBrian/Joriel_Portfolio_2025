@@ -103,11 +103,11 @@ const Footer = () =>{
                     </div>
                 </section>
             </div>
-            <div className="border-t border-gray-800 pt-8">
+            <div className="border-t border-blue-400 pt-8">
                 <div className="flex flex-wrap justify-between items-center">
                     {/* Tech Stack */}
                     <div className="flex w-full xl:w-1/2 justify-center items-center gap-4">
-                        <span className="text-gray-400">Built with:</span>
+                        <span className="text-gray-200">Built with:</span>
                         <div className="flex gap-3">
                             {techStack.map((tech, index) => (
                             <div
@@ -123,10 +123,10 @@ const Footer = () =>{
 
                     {/* Copyright */}
                     <div className="flex flex-col w-full xl:w-1/2 text-center xl:text-right justify-center items-center xl:items-end">
-                        <p className="text-gray-400 text-sm">
+                        <p className="text-gray-200 text-sm">
                             © {new Date().getFullYear()} Joriel Sudario. All rights reserved.
                         </p>
-                        <p className="text-gray-500 text-xs mt-1">
+                        <p className="text-gray-400 text-xs mt-1">
                             This portfolio is developed using React, TypeScript, Tailwind CSS, Vite, and Vercel
                         </p>
                     </div>
